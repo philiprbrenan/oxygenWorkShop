@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-3f707c52-c6b6-45a2-ec22-913c588bca05" outputclass="3">
+  <title id="Locating-Files-by-Their-Original-Names-Or-Other-Meta-Data">Locating Files by Their Original Names Or Other Meta-Data</title>
+  <conbody>
+    <p>Each file produced by the 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ can have a 
+      <xref href="#Companion-File">&quot;Companion File&quot;</xref>
+ of the same name but without an extension. The 
+      <xref href="#Companion-File">&quot;Companion File&quot;</xref>
+ contains meta-data about the file such as its original location etc. which can be searched by 
+      <xref format="html" href="https://en.wikipedia.org/wiki/Grep" scope="external">grep</xref>
+ or similar.
+    </p>
+    <p>To find such a file use 
+      <xref format="html" href="https://en.wikipedia.org/wiki/Grep" scope="external">grep</xref>
+ to find the 
+      <xref href="#Companion-File">&quot;Companion File&quot;</xref>
+ containing the searched for content, paste that file name into the 
+      <xref format="html" href="https://en.wikipedia.org/wiki/Command-line_interface" scope="external">command line</xref>
+ after entering any command such as 
+      <b>ll</b>
+ and then press 
+      <b>.</b>
+ followed by the 
+      <xref format="html" href="https://en.wikipedia.org/wiki/Tab_key" scope="external">tab</xref>
+ key to have the 
+      <xref format="html" href="https://en.wikipedia.org/wiki/Shell_(computing)" scope="external">shell</xref>
+ expand it to locate the 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ file that corresponds to the located 
+      <xref href="#Companion-File">&quot;Companion File&quot;</xref>. 
+For example:
+    </p>
+    <pre>
+      <codeph>  \\grep -r 'SR-dashboard-ds.png'
+  png_f940c7db293fe377e7d49c4e0c654cb2:  source =&gt; &quot;/home/phil/r/pureStorage/docBook/download/OE_User_Guide/SRRBeta/images/screenshots/dashboard/SR-dashboard-ds.png&quot;,
+  ls png_f940c7db293fe377e7d49c4e0c654cb2.png</codeph>
+    </pre>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:17 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_locating_files_by_their_original_names_or_other_meta_data_38e404063935d61f8da822bb0e93922d.dita -->
+<!--guid: GUID-3f707c52-c6b6-45a2-ec22-913c588bca05 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Locating Files by Their Original Names Or Other Meta-Data -->
+<!--definition: Locating-Files-by-Their-Original-Names-Or-Other-Meta-Data -->
+<!--definition: GUID-3f707c52-c6b6-45a2-ec22-913c588bca05 -->
