@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-29224127-e14d-335d-b81f-e51f772fa8d4" outputclass="2">
+  <title id="Implementation">Implementation</title>
+  <conbody>
+    <p>The 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ has been implemented as a 
+      <xref format="html" href="http://www.perl.org/" scope="external">Perl</xref>
+ package at:
+    </p>
+    <p>
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">http://metacpan.org/pod/Dita::GB::Standard</xref>
+    </p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:17 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_implementation_8a73391cc2e701d41fc37e58c9a4142c.dita -->
+<!--guid: GUID-29224127-e14d-335d-b81f-e51f772fa8d4 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Implementation -->
+<!--definition: Implementation -->
+<!--definition: GUID-29224127-e14d-335d-b81f-e51f772fa8d4 -->
