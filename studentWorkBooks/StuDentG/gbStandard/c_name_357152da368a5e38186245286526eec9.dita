@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-341ed345-b6b4-497a-a140-d13fa81ed1f9">
+  <title/>
+  <xref format="html" href="mailto:root@localhost" rev="made" scope="external"/>
+  <conbody>
+    <section outputclass="1">
+      <title id="Name">Name</title>
+      <p>Dita::GB::Standard - The Gearhart-Brenan Dita Topic Naming Standard.</p>
+    </section>
+    <section outputclass="1">
+      <title id="Synopsis">Synopsis</title>
+      <p>The 
+        <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ is a means of naming 
+        <xref format="html" href="http://docs.oasis-open.org/dita/dita/v1.3/os/part2-tech-content/dita-v1.3-os-part2-tech-content.html" scope="external">Dita</xref>
+ topic files to enable global collaboration through uncoordinated content sharing.
+      </p>
+      <p>The 
+        <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ creates a human readable, deterministic file name which depends solely on the content to be stored in that file. Such file names are guaranteed to differ between files that contain differing content while being identical for files that contain identical content by the use of an 
+        <xref format="html" href="https://en.wikipedia.org/wiki/MD5" scope="external">md5 sum</xref>
+ in the file name.
+      </p>
+      <p>The 
+        <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ name looks like this:
+      </p>
+      <pre>
+        <codeph>  human_readable_part_derived_from_content + _ + md5_sum_of_content + extension</codeph>
+      </pre>
+      <p>The human readable part from content is derived solely from the content of the file by interpreting the file content as 
+        <xref format="html" href="https://en.wikipedia.org/wiki/Unicode" scope="external">Unicode</xref>
+ encoded as 
+        <xref format="html" href="https://en.wikipedia.org/wiki/UTF-8" scope="external">utf8</xref>, 
+then:
+      </p>
+      <pre>
+        <codeph> - replacing instances of xml tags with underscores
+ - replacing all characters other than a-z,A-Z,0-9 with underscores
+ - replacing runs of underscores with a single underscore
+ - removing any leading or trailing underscores
+ - truncating the component if it extends beyond $nameFromStringMaximumLength characters.</codeph>
+      </pre>
+      <p>The original file name for the content is not considered as part of the content of the file and so plays no part in choosing the 
+        <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ name for that content.
+      </p>
+      <p>If the file contains a 
+        <b>title</b>
+ tag then only the content of the 
+        <b>title</b>
+ tag is processed as described above to obtain the human readable component of the file name. If any of the following 
+        <xref format="html" href="http://docs.oasis-open.org/dita/dita/v1.3/os/part2-tech-content/dita-v1.3-os-part2-tech-content.html" scope="external">Dita</xref>
+ tags are found in a source file which also contains a 
+        <b>title</b>
+ tag then the following codes are prefixed to this file name as well:
+      </p>
+      <pre>
+        <codeph>  Code      Tag
+  bm_       bookmap
+  c_        concept
+  r_        reference
+  t_        task</codeph>
+      </pre>
+      <p>The 
+        <xref format="html" href="https://en.wikipedia.org/wiki/MD5" scope="external">md5 sum</xref>
+ component of the file name is calculated from the content of the file and presented as lowercase hexadecimal.
+      </p>
+      <p>The file extension component is obtained from: 
+        <xref format="html" href="https://en.wikipedia.org/wiki/List_of_filename_extensions" scope="external">https://en.wikipedia.org/wiki/List_of_filename_extensions</xref>
+      </p>
+      <p>Thus if a 
+        <b>dita</b>
+ file has content:
+      </p>
+      <pre>
+        <codeph> &lt;concept&gt;
+   &lt;title&gt;abc &amp;#x1D770;&amp;#x1D771;&amp;#x1D772;&lt;/title&gt;
+   &lt;conbody/&gt;
+ &lt;/concept&gt;</codeph>
+      </pre>
+      <p>then the 
+        <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ name for the file is:
+      </p>
+      <pre>
+        <codeph>  c_abc_8551cffdb92932637d952e04447783c8.dita</codeph>
+      </pre>
+      <p>If the option to present the 
+        <xref format="html" href="https://en.wikipedia.org/wiki/MD5" scope="external">md5 sum</xref>
+ as five letter English words is chosen then the standardized name for this content becomes:
+      </p>
+      <pre>
+        <codeph>  c_abc_Plume_VApoR_CaPER_eqUAl_qUAIL_saInT_mEdia_Irony.dita</codeph>
+      </pre>
+    </section>
+    <section outputclass="1">
+      <title id="Description">Description</title>
+      <p>The Gearhart-Brenan Dita Topic Naming Standard.</p>
+      <p>Version 20190708.</p>
+      <p>The following sections describe the methods in each functional area of this module. For an alphabetic listing of all methods by name see 
+        <xref href="#Index">Index</xref>.
+      </p>
+    </section>
+    <section outputclass="1">
+      <title id="Make-and-manage-utf8-files">Make and manage utf8 files</title>
+      <p>Make and manage files that conform to the 
+        <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ and are coded in utf8.
+      </p>
+    </section>
+    <section outputclass="1">
+      <title id="Make-and-manage-binary-files">Make and manage binary files</title>
+      <p>Make and manage files that conform to the 
+        <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ and are in plain binary.
+      </p>
+    </section>
+    <section outputclass="1">
+      <title id="Index">Index</title>
+      <p>1 
+        <xref href="#gbBinaryStandardCompanionFileContent">gbBinaryStandardCompanionFileContent</xref>
+ - Return the content of the 
+        <xref href="#Companion-File">&quot;Companion File&quot;</xref>
+ given a file whose name complies with the binary 
+        <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>.
+      </p>
+      <p>2 
+        <xref href="#gbBinaryStandardCompanionFileName">gbBinaryStandardCompanionFileName</xref>
+ - Return the name of the companion file given a file whose name complies with the 
+        <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>.
+      </p>
+      <p>3 
+        <xref href="#gbBinaryStandardCopyFile">gbBinaryStandardCopyFile</xref>
+ - Copy a file to the specified 
+        <b>$target</b>
+ folder renaming it to the 
+        <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>.
+      </p>
+      <p>4 
+        <xref href="#gbBinaryStandardCreateFile">gbBinaryStandardCreateFile</xref>
+ - Create a file in the specified 
+        <b>$Folder</b>
+ whose name is the 
+        <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ name for the specified 
+        <b>$content</b>
+ and return the file name, A 
+        <xref href="#Companion-File">&quot;Companion File&quot;</xref>
+ can, optionally, be created with the specified 
+        <b>$companionContent</b>.
+      </p>
+      <p>5 
+        <xref href="#gbBinaryStandardDelete">gbBinaryStandardDelete</xref>
+ - Delete a file and its 
+        <xref href="#Companion-File">&quot;Companion File&quot;</xref>
+ if there is one.
+      </p>
+      <p>6 
+        <xref href="#gbBinaryStandardFileName">gbBinaryStandardFileName</xref>
+ - Return the 
+        <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ file name given the content and extension of a proposed file.
+      </p>
+      <p>7 
+        <xref href="#gbBinaryStandardRename">gbBinaryStandardRename</xref>
+ - Check whether a file needs to be renamed to match the 
+        <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>.
+      </p>
+      <p>8 
+        <xref href="#gbStandardCompanionFileContent">gbStandardCompanionFileContent</xref>
+ - Return the content of the 
+        <xref href="#Companion-File">&quot;Companion File&quot;</xref>
+ given a file whose name complies with the 
+        <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>.
+      </p>
+      <p>9 
+        <xref href="#gbStandardCompanionFileName">gbStandardCompanionFileName</xref>
+ - Return the name of the 
+        <xref href="#Companion-File">&quot;Companion File&quot;</xref>
+ given a file whose name complies with the 
+        <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>.
+      </p>
+      <p>10 
+        <xref href="#gbStandardCopyFile">gbStandardCopyFile</xref>
+ - Copy a file to the specified 
+        <b>$target</b>
+ folder renaming it to the 
+        <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>.
+      </p>
+      <p>11 
+        <xref href="#gbStandardCreateFile">gbStandardCreateFile</xref>
+ - Create a file in the specified 
+        <b>$Folder</b>
+ whose name is the 
+        <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ name for the specified 
+        <b>$content</b>
+ and return the file name, A 
+        <xref href="#Companion-File">&quot;Companion File&quot;</xref>
+ can, optionally, be created with the specified 
+        <b>$companionContent</b>
+      </p>
+      <p>12 
+        <xref href="#gbStandardDelete">gbStandardDelete</xref>
+ - Delete a file and its companion file if there is one.
+      </p>
+      <p>13 
+        <xref href="#gbStandardFileName">gbStandardFileName</xref>
+ - Return the 
+        <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ file name given the content and extension of a proposed file.
+      </p>
+      <p>14 
+        <xref href="#gbStandardRename">gbStandardRename</xref>
+ - Check whether a file needs to be renamed to match the 
+        <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>.
+      </p>
+    </section>
+    <section outputclass="1">
+      <title id="Exports">Exports</title>
+      <p>All of the following methods can be imported via:</p>
+      <pre>
+        <codeph>  use Dita::GB::Standard qw(:all);</codeph>
+      </pre>
+      <p>Or individually via:</p>
+      <pre>
+        <codeph>  use Dita::GB::Standard qw(&lt;method&gt;);</codeph>
+      </pre>
+      <p>1 
+        <xref href="#gbBinaryStandardCompanionFileContent">gbBinaryStandardCompanionFileContent</xref>
+      </p>
+      <p>2 
+        <xref href="#gbBinaryStandardCompanionFileName">gbBinaryStandardCompanionFileName</xref>
+      </p>
+      <p>3 
+        <xref href="#gbBinaryStandardCopyFile">gbBinaryStandardCopyFile</xref>
+      </p>
+      <p>4 
+        <xref href="#gbBinaryStandardCreateFile">gbBinaryStandardCreateFile</xref>
+      </p>
+      <p>5 
+        <xref href="#gbBinaryStandardDelete">gbBinaryStandardDelete</xref>
+      </p>
+      <p>6 
+        <xref href="#gbBinaryStandardFileName">gbBinaryStandardFileName</xref>
+      </p>
+      <p>7 
+        <xref href="#gbBinaryStandardRename">gbBinaryStandardRename</xref>
+      </p>
+      <p>8 
+        <xref href="#gbStandardCompanionFileContent">gbStandardCompanionFileContent</xref>
+      </p>
+      <p>9 
+        <xref href="#gbStandardCompanionFileName">gbStandardCompanionFileName</xref>
+      </p>
+      <p>10 
+        <xref href="#gbStandardCopyFile">gbStandardCopyFile</xref>
+      </p>
+      <p>11 
+        <xref href="#gbStandardCreateFile">gbStandardCreateFile</xref>
+      </p>
+      <p>12 
+        <xref href="#gbStandardDelete">gbStandardDelete</xref>
+      </p>
+      <p>13 
+        <xref href="#gbStandardFileName">gbStandardFileName</xref>
+      </p>
+      <p>14 
+        <xref href="#gbStandardRename">gbStandardRename</xref>
+      </p>
+    </section>
+    <section outputclass="1">
+      <title id="Installation">Installation</title>
+      <p>This module is written in 100% Pure Perl and, thus, it is easy to read, comprehend, use, modify and install via 
+        <b>cpan</b>:
+      </p>
+      <pre>
+        <codeph>  sudo cpan install Dita::GB::Standard</codeph>
+      </pre>
+    </section>
+    <section outputclass="1">
+      <title id="Author">Author</title>
+      <p>
+        <xref format="html" href="mailto:philiprbrenan@gmail.com" scope="external">philiprbrenan@gmail.com</xref>
+      </p>
+      <p>
+        <xref format="html" href="http://www.appaapps.com" scope="external">http://www.appaapps.com</xref>
+      </p>
+    </section>
+    <section outputclass="1">
+      <title id="Copyright">Copyright</title>
+      <p>Copyright (c) 2016-2019 Philip R Brenan.</p>
+      <p>This module is free software. It may be used, redistributed and/or modified under the same terms as Perl itself.</p>
+    </section>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:19 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_name_357152da368a5e38186245286526eec9.dita -->
+<!--guid: GUID-341ed345-b6b4-497a-a140-d13fa81ed1f9 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--definition: Name -->
+<!--definition: Synopsis -->
+<!--definition: Description -->
+<!--definition: Make-and-manage-utf8-files -->
+<!--definition: Make-and-manage-binary-files -->
+<!--definition: Index -->
+<!--definition: Exports -->
+<!--definition: Installation -->
+<!--definition: Author -->
+<!--definition: Copyright -->
+<!--definition: GUID-341ed345-b6b4-497a-a140-d13fa81ed1f9 -->
+
+<!-- -:298: element concept: validity error : Element concept content does not follow the DTD, expecting (title , titlealts? , (abstract | shortdesc)? , prolog? , conbody? , related-links? , concept*), got (title xref conbody ) -->
+<!-- </concept> -->
+<!--           ^ -->
+
+<!--errors: 1 -->
+<!--compressedErrors: 1 -->
+<!-- Element concept content does not follow the DTD, expecting (title , titlealts? , (abstract | shortdesc)? , prolog? , conbody? , related-links? , concept*), got (title xref conbody )-->
