@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-8efa32ec-edb1-9b05-c0cc-a11cc4b446fc" outputclass="2">
+  <title id="gbBinaryStandardFileName">gbBinaryStandardFileName($$)</title>
+  <conbody>
+    <p>Return the 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ file name given the content and extension of a proposed file.
+    </p>
+    <pre>
+      <codeph>     Parameter   Description
+  1  $content    Content
+  2  $extension  Extension</codeph>
+    </pre>
+    <p>
+      <b>Example:</b>
+    </p>
+    <pre>
+      <codeph>  if (1) {
+    if (useWords)
+     {ok &amp;#x1D5F4;&amp;#x1D5EF;&amp;#x1D5D5;&amp;#x1D5F6;&amp;#x1D5FB;&amp;#x1D5EE;&amp;#x1D5FF;&amp;#x1D606;&amp;#x1D5E6;&amp;#x1D601;&amp;#x1D5EE;&amp;#x1D5FB;&amp;#x1D5F1;&amp;#x1D5EE;&amp;#x1D5FF;&amp;#x1D5F1;&amp;#x1D5D9;&amp;#x1D5F6;&amp;#x1D5F9;&amp;#x1D5F2;&amp;#x1D5E1;&amp;#x1D5EE;&amp;#x1D5FA;&amp;#x1D5F2;(qq(\0abc\1), q(png)) eq q(png_thInk_BUSHy_dRYER_spaCE_KNOwN_lepeR_SeNse_MaJor.png);
+     }
+    else
+     {ok &amp;#x1D5F4;&amp;#x1D5EF;&amp;#x1D5D5;&amp;#x1D5F6;&amp;#x1D5FB;&amp;#x1D5EE;&amp;#x1D5FF;&amp;#x1D606;&amp;#x1D5E6;&amp;#x1D601;&amp;#x1D5EE;&amp;#x1D5FB;&amp;#x1D5F1;&amp;#x1D5EE;&amp;#x1D5FF;&amp;#x1D5F1;&amp;#x1D5D9;&amp;#x1D5F6;&amp;#x1D5F9;&amp;#x1D5F2;&amp;#x1D5E1;&amp;#x1D5EE;&amp;#x1D5FA;&amp;#x1D5F2;(qq(\0abc\1), q(png)) eq q(png_2786f1147a331ec6ebf60c1ba636a458.png);
+     }
+   }</codeph>
+    </pre>
+    <p>This method can be imported via:</p>
+    <pre>
+      <codeph>  use Dita::GB::Standard qw(gbBinaryStandardFileName)</codeph>
+    </pre>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:18 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_gbbinarystandardfilename_b9dd26272e75a00a93e0d50932131ffa.dita -->
+<!--guid: GUID-8efa32ec-edb1-9b05-c0cc-a11cc4b446fc -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: gbBinaryStandardFileName($$) -->
+<!--definition: gbBinaryStandardFileName -->
+<!--definition: GUID-8efa32ec-edb1-9b05-c0cc-a11cc4b446fc -->
