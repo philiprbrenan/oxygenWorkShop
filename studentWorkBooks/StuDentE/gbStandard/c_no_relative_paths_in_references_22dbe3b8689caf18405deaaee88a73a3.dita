@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-ab089d62-65c8-6289-fd07-66d84dc5c3b9" outputclass="3">
+  <title id="No-Relative-Paths-in-References">No Relative Paths in References</title>
+  <conbody>
+    <p>If all the topic files share one global folder there is no need for complicated path expressions in references such as:</p>
+    <pre>
+      <codeph>  &lt;image href=&quot;../../../image{200B}files/size{200B}large/aaa.png&quot;/&gt;</codeph>
+    </pre>
+    <p>Extended path names that are repeated across many references are, in effect, a form of boiler plate which can be avoided by applying this standard.</p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:16 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_no_relative_paths_in_references_22dbe3b8689caf18405deaaee88a73a3.dita -->
+<!--guid: GUID-ab089d62-65c8-6289-fd07-66d84dc5c3b9 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: No Relative Paths in References -->
+<!--definition: No-Relative-Paths-in-References -->
+<!--definition: GUID-ab089d62-65c8-6289-fd07-66d84dc5c3b9 -->
