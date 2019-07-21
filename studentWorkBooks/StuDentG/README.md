@@ -1,18 +1,20 @@
 # The Oxygen Workshop
 
-The workshop contains four documents for the students to work on held in github repository
+The workshop contains four documents for the students to work on held in github
+repository:
 
 https://github.com/philiprbrenan/studentWorkShop
 
 The documents range from easy to complex and thus provide a graduated
-introduction to techical writing with Dita which will allow each student to
+introduction to technical writing with Dita which will allow each student to
 improve from their current level of expertise.
 
 ## oxygenWorkShopDescription
 
 A copy of this document in markdown format.
 
-This document should be converted first, manually, as it is the shortest and easiest.
+This document should be converted first, manually, as it is the shortest and
+easiest.
 
 ## selfServiceXref
 
@@ -31,8 +33,9 @@ students might enjoy ameliorating this deficiency.
 ## gbStandard - a copy of the GB Standard as converted from html to to Dita.
 
 This document is representative of the sort of document that technical writers
-spend their lives improving.  We should hire any student that manages to get
-this far in the workshop.
+spend their lives improving.  We should hire any student that manages to
+improve this important document. You say: "But Bill has already improved this
+document"? Well then we should hire him!
 
 # Creating the Oxygen WorkShop
 
