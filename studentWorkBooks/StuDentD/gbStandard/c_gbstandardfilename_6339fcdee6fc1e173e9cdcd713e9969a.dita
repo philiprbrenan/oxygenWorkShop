@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-e61da7c5-9d8d-925e-4dff-aa9d28c50313" outputclass="2">
+  <title id="gbStandardFileName">gbStandardFileName($$%)</title>
+  <conbody>
+    <p>Return the 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ file name given the content and extension of a proposed file.
+    </p>
+    <pre>
+      <codeph>     Parameter   Description
+  1  $content    Content
+  2  $extension  Extension
+  3  %options    Various ingenious options designed by Micaela</codeph>
+    </pre>
+    <p>
+      <b>Example:</b>
+    </p>
+    <pre>
+      <codeph>  if (1) {
+    if (useWords)
+     {ok &amp;#x1D5F4;&amp;#x1D5EF;&amp;#x1D5E6;&amp;#x1D601;&amp;#x1D5EE;&amp;#x1D5FB;&amp;#x1D5F1;&amp;#x1D5EE;&amp;#x1D5FF;&amp;#x1D5F1;&amp;#x1D5D9;&amp;#x1D5F6;&amp;#x1D5F9;&amp;#x1D5F2;&amp;#x1D5E1;&amp;#x1D5EE;&amp;#x1D5FA;&amp;#x1D5F2;(&lt;&lt;END, q(dita)) eq q(c_abc_Plume_VApoR_CaPER_eqUAl_qUAIL_saInT_mEdia_Irony.dita);
+  &lt;concept&gt;
+    &lt;title&gt;abc &amp;#x1D770;&amp;#x1D771;&amp;#x1D772;&lt;/title&gt;
+    &lt;conbody/&gt;
+  &lt;/concept&gt;
+  END
+     }
+    else
+     {ok &amp;#x1D5F4;&amp;#x1D5EF;&amp;#x1D5E6;&amp;#x1D601;&amp;#x1D5EE;&amp;#x1D5FB;&amp;#x1D5F1;&amp;#x1D5EE;&amp;#x1D5FF;&amp;#x1D5F1;&amp;#x1D5D9;&amp;#x1D5F6;&amp;#x1D5F9;&amp;#x1D5F2;&amp;#x1D5E1;&amp;#x1D5EE;&amp;#x1D5FA;&amp;#x1D5F2;(&lt;&lt;END, q(dita)) eq q(c_abc_8551cffdb92932637d952e04447783c8.dita);
+  &lt;concept xtrf=&quot;A&quot;&gt;
+    &lt;title&gt;abc &amp;#x1D770;&amp;#x1D771;&amp;#x1D772;&lt;/title&gt;
+    &lt;conbody/&gt;
+  &lt;/concept&gt;
+  END
+     }
+   }</codeph>
+    </pre>
+    <p>This method can be imported via:</p>
+    <pre>
+      <codeph>  use Dita::GB::Standard qw(gbStandardFileName)</codeph>
+    </pre>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:17 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_gbstandardfilename_6339fcdee6fc1e173e9cdcd713e9969a.dita -->
+<!--guid: GUID-e61da7c5-9d8d-925e-4dff-aa9d28c50313 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: gbStandardFileName($$%) -->
+<!--definition: gbStandardFileName -->
+<!--definition: GUID-e61da7c5-9d8d-925e-4dff-aa9d28c50313 -->
