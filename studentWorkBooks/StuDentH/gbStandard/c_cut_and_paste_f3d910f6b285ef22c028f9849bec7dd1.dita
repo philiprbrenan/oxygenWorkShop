@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-fb2c1df3-e63b-b109-1079-db2726b7f9ca" outputclass="3">
+  <title id="Cut-And-Paste">Cut And Paste</title>
+  <conbody>
+    <p>As there are no spaces in the files names created using the 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ such file names can be selected by a mouse double click and thus easily copied and pasted into other documents.
+    </p>
+    <p>Conversely, one has to use cut and paste to manipulate such file names making it impossible to mistype such file names in other documents.</p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:16 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_cut_and_paste_f3d910f6b285ef22c028f9849bec7dd1.dita -->
+<!--guid: GUID-fb2c1df3-e63b-b109-1079-db2726b7f9ca -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Cut And Paste -->
+<!--definition: Cut-And-Paste -->
+<!--definition: GUID-fb2c1df3-e63b-b109-1079-db2726b7f9ca -->
