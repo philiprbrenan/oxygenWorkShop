@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd" []>
+<bookmap id="GUID-cc515680-b3b7-8087-3093-6f1f83bcc05f">
+  <booktitle>
+    <mainbooktitle>automation</mainbooktitle>
+  </booktitle>
+  <bookmeta>
+    <shortdesc/>
+    <author/>
+    <source/>
+    <category/>
+    <keywords>
+      <keyword/>
+    </keywords>
+    <prodinfo>
+      <prodname product=""/>
+      <vrmlist>
+        <vrm version=""/>
+      </vrmlist>
+      <prognum/>
+      <brand/>
+    </prodinfo>
+    <bookchangehistory>
+      <approved>
+        <revisionid/>
+      </approved>
+    </bookchangehistory>
+    <bookrights>
+      <copyrfirst>
+        <year/>
+      </copyrfirst>
+      <bookowner/>
+    </bookrights>
+  </bookmeta>
+  <frontmatter>
+    <notices/>
+    <booklists>
+      <toc/>
+    </booklists>
+    <preface/>
+  </frontmatter>
+  <chapter href="c_introduction_50fa751c8b47918ac9899f4bb3012257.dita" navtitle="">
+    <topicref href="c_dita_in_git_5ca7e26242333b18d96573234cda10db.dita" navtitle="Dita in Git"/>
+    <topicref href="c_dita_io_06d8fa5dffe3042a399d4db08dc0aa64.dita" navtitle="Dita IO"/>
+    <topicref href="c_information_model_automation_020f133525e0e734d7645fd8fe88111d.dita" navtitle="Information Model Automation"/>
+    <topicref href="c_translation_services_f44fbce17daf77423b183b749b34c541.dita" navtitle="Translation services"/>
+    <topicref href="c_speech_service_da7b93993fa77a366fcf89656c4a5bca.dita" navtitle="Speech Service"/>
+    <topicref href="c_text_deduplication_ed5c38f0f544579c34a13680d9cffe4a.dita" navtitle="Text deduplication"/>
+    <topicref href="c_clean_operational_environment_252dbc4204a08fd04caddfe6ff688a37.dita" navtitle="Clean Operational Environment"/>
+    <topicref href="c_clean_data_5b5c103d02b9bea0ef414b59657d34d2.dita" navtitle="Clean data"/>
+    <topicref href="c_avoid_fragmenting_our_efforts_4cfbc89df6ab51927329ccd312b3da6a.dita" navtitle="Avoid Fragmenting Our Efforts"/>
+    <topicref href="c_the_ideal_conversion_9f62f7df084cb8490a345e3901774a72.dita" navtitle="The ideal conversion"/>
+    <topicref href="c_the_ideal_ticket_9c48ca4b068d3f185e988da42b0b0eb7.dita" navtitle="The ideal ticket."/>
+    <topicref href="c_reduce_travel_increase_internet_0efd69c96d74964d29538e5374d57a8d.dita" navtitle="Reduce Travel increase Internet"/>
+    <topicref href="c_cross_train_296661d0f1b802116fd4a894644fc7a3.dita" navtitle="Cross train"/>
+    <topicref href="c_write_more_stuff_down_in_dita_so_we_do_not_forget_how_to_do_it_ebb7eb78f19201c2f2ea26894d4ce81c.dita" navtitle="Write more stuff down in Dita so we do not forget how to do it"/>
+  </chapter>
+  <appendices/>
+  <reltable>
+    <relheader>
+      <relcolspec/>
+      <relcolspec/>
+    </relheader>
+    <relrow>
+      <relcell/>
+      <relcell/>
+    </relrow>
+    <relrow>
+      <relcell/>
+      <relcell/>
+    </relrow>
+  </reltable>
+</bookmap>
+<!--linted: 2019-07-21 at 13:02:34 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: bookmap -->
+<!--docType: <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/bm_automation_9bf3b04fd84546e23a15661bb239b30b.ditamap -->
+<!--guid: GUID-cc515680-b3b7-8087-3093-6f1f83bcc05f -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/automation.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: automation -->
+<!--definition: GUID-cc515680-b3b7-8087-3093-6f1f83bcc05f -->
+<!--labels: GUID-cc515680-b3b7-8087-3093-6f1f83bcc05f GUID-fa1989b8-f1cf-ba85-d56c-315e734791c6 -->
