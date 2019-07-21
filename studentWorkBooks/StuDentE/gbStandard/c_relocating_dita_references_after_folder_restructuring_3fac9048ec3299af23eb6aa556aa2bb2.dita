@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-dd60ab64-af15-c73f-ea85-c0df0c899f78" outputclass="3">
+  <title id="Relocating-Dita-References-After-Folder-Restructuring">Relocating Dita References After Folder Restructuring</title>
+  <conbody>
+    <p>In the ideal implementation all files named with the 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ occupy one global folder. In circumstances where this is not possible, such files can easily be moved into sub folders without fear of collisions, although, any Dita references between such files might have to be updated. This update is easily performed because only the path component has to be updated and the value of the new path can easily be found by searching for the base component of the topic file name using a utility such as 
+      <xref format="html" href="https://en.wikipedia.org/wiki/Find_(Unix)" scope="external">find</xref>. 
+For a more efficient method, see 
+      <xref>Data::Edit::Xml::Xref</xref>.
+    </p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:16 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_relocating_dita_references_after_folder_restructuring_3fac9048ec3299af23eb6aa556aa2bb2.dita -->
+<!--guid: GUID-dd60ab64-af15-c73f-ea85-c0df0c899f78 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Relocating Dita References After Folder Restructuring -->
+<!--definition: Relocating-Dita-References-After-Folder-Restructuring -->
+<!--definition: GUID-dd60ab64-af15-c73f-ea85-c0df0c899f78 -->
