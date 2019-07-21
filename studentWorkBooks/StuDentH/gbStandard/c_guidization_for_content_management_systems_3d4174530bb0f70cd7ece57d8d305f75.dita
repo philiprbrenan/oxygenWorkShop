@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-3925b9e0-db7a-c8db-0c25-a513ff8d50fc" outputclass="3">
+  <title id="Guidization-For-Content-Management-Systems">Guidization For Content Management Systems</title>
+  <conbody>
+    <p>Self constructed Content Management Systems using BitBucket, GitHub or Gitlab that rely on guidization to differentiate files placed in these repositories benefit immensely: the 
+      <xref format="html" href="https://en.wikipedia.org/wiki/Universally_unique_identifier" scope="external">guid</xref>
+ to use can be easily derived from the 
+      <xref format="html" href="https://en.wikipedia.org/wiki/MD5" scope="external">md5 sum</xref>
+ sum in the 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ file name.
+    </p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:16 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_guidization_for_content_management_systems_3d4174530bb0f70cd7ece57d8d305f75.dita -->
+<!--guid: GUID-3925b9e0-db7a-c8db-0c25-a513ff8d50fc -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Guidization For Content Management Systems -->
+<!--definition: Guidization-For-Content-Management-Systems -->
+<!--definition: GUID-3925b9e0-db7a-c8db-0c25-a513ff8d50fc -->
