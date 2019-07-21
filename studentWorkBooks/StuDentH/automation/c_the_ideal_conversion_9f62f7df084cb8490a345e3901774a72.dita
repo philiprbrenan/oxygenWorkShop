@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-d08ab884-5753-574d-491f-08057103defe" outputclass="2">
+  <title id="The-ideal-conversion">The ideal conversion</title>
+  <conbody>
+    <p>(1) We clean up the customers data</p>
+    <p>(2) We do a proof of concept for the customer using 1 or 2 representative
+documents from each author (and their style guide).</p>
+    <p>(3) While we do the PoC the customer practices taking snapshots of all their
+content. When the PoC is done the customer sends us a snapshot of ALL their
+content.</p>
+    <p>(4) We enhance the conversion program and show the customer the proposed
+results applied to their test snapshot.</p>
+    <p>(5) When the customer 
+      <b>reasonably</b>
+ happy with the results they take a
+new production snapshot - preferably on Friday and send it to us.
+    </p>
+    <p>(7) We run the conversion program and send the results back within a few
+hours.</p>
+    <p>(8) The customer checks the results and if good accepts them into their
+production system and starts using them on Monday.</p>
+    <p>(9) If the customer discovers more changes they would like to make they
+should: (a) Send us a new snap shot and a description of the changes to be made
+(b) We write/test/run the code to perform the requested change (c) If the
+customer is using a Git based system we send them the changed files as new
+branches and the authors merge the branches as they see fit. (d) If the
+customer is not using a Git based system we send them differential patches to
+apply as they see fit. This is identical to the process that Git uses when
+merging two branches so there is nothing novel here. (e) Repeat as necessary
+until done.</p>
+    <p>Ideally we would bill after each step and not advance to the next step until
+we are confident with the customers willingness to pay for the work completed
+so far.</p>
+    <p>This approach allows us to get the maximum benefit from the conversion
+effort in the shortest amount of time. Alternative solutions divide the work up
+too much and spend too much time redoing the conversion to accommodate trailing
+minor changes much better done as described in (8).</p>
+    <p>A major benefit of organizing work in this manner is that the hard part (the
+conversion) can be done in one sprint without swapping to other projects
+because all the data is available.</p>
+    <p>The subsequent easier incremental work can be done in short self contained
+sprints gain without swapping.</p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:02:34 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_the_ideal_conversion_9f62f7df084cb8490a345e3901774a72.dita -->
+<!--guid: GUID-d08ab884-5753-574d-491f-08057103defe -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/automation.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: The ideal conversion -->
+<!--definition: The-ideal-conversion -->
+<!--definition: GUID-d08ab884-5753-574d-491f-08057103defe -->
