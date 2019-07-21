@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-3c81add3-cb78-0bda-0ae3-8349fd501b5a" outputclass="2">
+  <title id="Clean-Operational-Environment">Clean Operational Environment</title>
+  <conbody>
+    <p>We spend too much time shuffling data between ourselves and our
+customers.</p>
+    <p>Example: moving files between Aci, Ryffine and BlueStream burnt far more
+time than just sending us a complete dump of the data in the first place. On
+the 4 occasions they sent us a zip full of files they managed to do things in a
+slightly different way each time which we then had to debug (at scale) to
+ameliorate the consequences.</p>
+    <p>Example: using ftp versus having the customer put all their files in Github,
+or S3, or onto an AWS instance i.e. in the cloud where we can work on them and
+the customer can see what we are doing.</p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:02:33 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_clean_operational_environment_252dbc4204a08fd04caddfe6ff688a37.dita -->
+<!--guid: GUID-3c81add3-cb78-0bda-0ae3-8349fd501b5a -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/automation.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Clean Operational Environment -->
+<!--definition: Clean-Operational-Environment -->
+<!--definition: GUID-3c81add3-cb78-0bda-0ae3-8349fd501b5a -->
