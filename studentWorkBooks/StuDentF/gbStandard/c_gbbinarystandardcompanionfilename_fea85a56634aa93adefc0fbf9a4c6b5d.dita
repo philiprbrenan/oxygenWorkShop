@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-3491c18a-8e64-a1a3-e33d-d6b66ca52d03" outputclass="2">
+  <title id="gbBinaryStandardCompanionFileName">gbBinaryStandardCompanionFileName($)</title>
+  <conbody>
+    <p>Return the name of the companion file given a file whose name complies with the 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>.
+    </p>
+    <pre>
+      <codeph>     Parameter  Description
+  1  $file      L&lt;GB Standard|http://metacpan.org/pod/Dita::GB::Standard&gt; file name</codeph>
+    </pre>
+    <p>
+      <b>Example:</b>
+    </p>
+    <pre>
+      <codeph>  ok &amp;#x1D5F4;&amp;#x1D5EF;&amp;#x1D5D5;&amp;#x1D5F6;&amp;#x1D5FB;&amp;#x1D5EE;&amp;#x1D5FF;&amp;#x1D606;&amp;#x1D5E6;&amp;#x1D601;&amp;#x1D5EE;&amp;#x1D5FB;&amp;#x1D5F1;&amp;#x1D5EE;&amp;#x1D5FF;&amp;#x1D5F1;&amp;#x1D5D6;&amp;#x1D5FC;&amp;#x1D5FA;&amp;#x1D5FD;&amp;#x1D5EE;&amp;#x1D5FB;&amp;#x1D5F6;&amp;#x1D5FC;&amp;#x1D5FB;&amp;#x1D5D9;&amp;#x1D5F6;&amp;#x1D5F9;&amp;#x1D5F2;&amp;#x1D5E1;&amp;#x1D5EE;&amp;#x1D5FA;&amp;#x1D5F2;(q(a/b.c)) eq q(a/b);</codeph>
+    </pre>
+    <p>This method can be imported via:</p>
+    <pre>
+      <codeph>  use Dita::GB::Standard qw(gbBinaryStandardCompanionFileName)</codeph>
+    </pre>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:18 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_gbbinarystandardcompanionfilename_fea85a56634aa93adefc0fbf9a4c6b5d.dita -->
+<!--guid: GUID-3491c18a-8e64-a1a3-e33d-d6b66ca52d03 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: gbBinaryStandardCompanionFileName($) -->
+<!--definition: gbBinaryStandardCompanionFileName -->
+<!--definition: GUID-3491c18a-8e64-a1a3-e33d-d6b66ca52d03 -->
