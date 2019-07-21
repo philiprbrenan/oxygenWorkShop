@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-2195f57b-22eb-f522-dab2-56997c2b35e2" outputclass="2">
+  <title id="gbStandardCompanionFileName">gbStandardCompanionFileName($)</title>
+  <conbody>
+    <p>Return the name of the 
+      <xref href="#Companion-File">&quot;Companion File&quot;</xref>
+ given a file whose name complies with the 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>.
+    </p>
+    <pre>
+      <codeph>     Parameter  Description
+  1  $file      L&lt;GB Standard|http://metacpan.org/pod/Dita::GB::Standard&gt; file name</codeph>
+    </pre>
+    <p>
+      <b>Example:</b>
+    </p>
+    <pre>
+      <codeph>  ok &amp;#x1D5F4;&amp;#x1D5EF;&amp;#x1D5E6;&amp;#x1D601;&amp;#x1D5EE;&amp;#x1D5FB;&amp;#x1D5F1;&amp;#x1D5EE;&amp;#x1D5FF;&amp;#x1D5F1;&amp;#x1D5D6;&amp;#x1D5FC;&amp;#x1D5FA;&amp;#x1D5FD;&amp;#x1D5EE;&amp;#x1D5FB;&amp;#x1D5F6;&amp;#x1D5FC;&amp;#x1D5FB;&amp;#x1D5D9;&amp;#x1D5F6;&amp;#x1D5F9;&amp;#x1D5F2;&amp;#x1D5E1;&amp;#x1D5EE;&amp;#x1D5FA;&amp;#x1D5F2;(q(a/b.c)) eq q(a/b);</codeph>
+    </pre>
+    <p>This method can be imported via:</p>
+    <pre>
+      <codeph>  use Dita::GB::Standard qw(gbStandardCompanionFileName)</codeph>
+    </pre>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:17 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_gbstandardcompanionfilename_5f04b270936685ced1b474fc6bc647b7.dita -->
+<!--guid: GUID-2195f57b-22eb-f522-dab2-56997c2b35e2 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: gbStandardCompanionFileName($) -->
+<!--definition: gbStandardCompanionFileName -->
+<!--definition: GUID-2195f57b-22eb-f522-dab2-56997c2b35e2 -->
