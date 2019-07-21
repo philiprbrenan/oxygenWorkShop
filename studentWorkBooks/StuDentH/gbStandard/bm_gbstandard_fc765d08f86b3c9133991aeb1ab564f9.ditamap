@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd" []>
+<bookmap id="GUID-f4f5f90d-a4dd-83ad-5d46-da9f3da2df12">
+  <booktitle>
+    <mainbooktitle>gbStandard</mainbooktitle>
+  </booktitle>
+  <bookmeta>
+    <shortdesc/>
+    <author/>
+    <source/>
+    <category/>
+    <keywords>
+      <keyword/>
+    </keywords>
+    <prodinfo>
+      <prodname product=""/>
+      <vrmlist>
+        <vrm version=""/>
+      </vrmlist>
+      <prognum/>
+      <brand/>
+    </prodinfo>
+    <bookchangehistory>
+      <approved>
+        <revisionid/>
+      </approved>
+    </bookchangehistory>
+    <bookrights>
+      <copyrfirst>
+        <year/>
+      </copyrfirst>
+      <bookowner/>
+    </bookrights>
+  </bookmeta>
+  <frontmatter>
+    <notices/>
+    <booklists>
+      <toc/>
+    </booklists>
+    <preface/>
+  </frontmatter>
+  <chapter href="c_name_357152da368a5e38186245286526eec9.dita" navtitle="">
+    <topicref href="c_benefits_342f3e58f47957531efec9cbde18f67a.dita" navtitle="Benefits">
+      <topicref href="c_parallel_processing_2dc6fda3095405c29b91dd5cf3a606e0.dita" navtitle="Parallel Processing"/>
+      <topicref href="c_file_flattening_0e4eb25e64b32e0d471e619b5f61fe5d.dita" navtitle="File Flattening"/>
+      <topicref href="c_no_relative_paths_in_references_22dbe3b8689caf18405deaaee88a73a3.dita" navtitle="No Relative Paths in References"/>
+      <topicref href="c_relocating_dita_references_after_folder_restructuring_3fac9048ec3299af23eb6aa556aa2bb2.dita" navtitle="Relocating Dita References After Folder Restructuring"/>
+      <topicref href="c_similar_files_tend_to_appear_close_together_in_directory_listings_61f976f7c140684d3eab77ad62461947.dita" navtitle="Similar Files Tend To Appear Close Together In Directory Listings."/>
+      <topicref href="c_copying_and_moving_files_for_global_interoperability_e9f527d9b8a8c95077194e2a24b4e8f5.dita" navtitle="Copying And Moving Files For Global Interoperability"/>
+      <topicref href="c_guidization_for_content_management_systems_3d4174530bb0f70cd7ece57d8d305f75.dita" navtitle="Guidization For Content Management Systems"/>
+      <topicref href="c_using_dita_tags_to_describe_content_3ce8df0e66b33eab93d1ef4ce41bd3e8.dita" navtitle="Using Dita Tags To Describe Content"/>
+      <topicref href="c_cut_and_paste_f3d910f6b285ef22c028f9849bec7dd1.dita" navtitle="Cut And Paste"/>
+      <topicref href="c_csv_files_957d82f90b931efddda84e39abf53371.dita" navtitle="CSV files"/>
+      <topicref href="c_automatic_file_versioning_d9f127961a04f07d9b2bd476f8ce04d7.dita" navtitle="Automatic File Versioning"/>
+      <topicref href="c_enhanced_command_line_processing_48d79d0a8dc3b9b8b46d4c3b2a037e6f.dita" navtitle="Enhanced Command Line Processing"/>
+      <topicref href="c_locating_files_by_their_original_names_or_other_meta_data_38e404063935d61f8da822bb0e93922d.dita" navtitle="Locating Files by Their Original Names Or Other Meta-Data"/>
+    </topicref>
+    <topicref href="c_companion_file_10cd5e68dabd939400867de04250fbb6.dita" navtitle="Companion File"/>
+    <topicref href="c_alternate_file_names_7eb58079aa8176654caa5e4c2ebdaf30.dita" navtitle="Alternate File Names"/>
+    <topicref href="c_implementation_8a73391cc2e701d41fc37e58c9a4142c.dita" navtitle="Implementation"/>
+    <topicref href="c_binary_vs_utf8_2f70c5d3e6145d03a99e4a57523d2765.dita" navtitle="Binary vs Utf8"/>
+    <topicref href="c_documentation_copyright_7dc0f3f20a762879c44201bf84391eab.dita" navtitle="Documentation Copyright"/>
+    <topicref href="c_gbstandardfilename_6339fcdee6fc1e173e9cdcd713e9969a.dita" navtitle="gbStandardFileName($$%)"/>
+    <topicref href="c_gbstandardcompanionfilename_5f04b270936685ced1b474fc6bc647b7.dita" navtitle="gbStandardCompanionFileName($)"/>
+    <topicref href="c_gbstandardcompanionfilecontent_91b095f7e074f2818d73fcfbbbbb4e6d.dita" navtitle="gbStandardCompanionFileContent($)"/>
+    <topicref href="c_gbstandardcreatefile_1c44ae04f09cb0acb5a2645d26becab3.dita" navtitle="gbStandardCreateFile($$$%)"/>
+    <topicref href="c_gbstandardrename_26a4e5672ec6cfa31b2713c5af3156f4.dita" navtitle="gbStandardRename($%)"/>
+    <topicref href="c_gbstandardcopyfile_b09c7b9ed456e1f1dfc74abeca7b712e.dita" navtitle="gbStandardCopyFile($%)"/>
+    <topicref href="c_gbstandarddelete_72793174910b58a31a44ddec974b5814.dita" navtitle="gbStandardDelete($)"/>
+    <topicref href="c_gbbinarystandardfilename_b9dd26272e75a00a93e0d50932131ffa.dita" navtitle="gbBinaryStandardFileName($$)"/>
+    <topicref href="c_gbbinarystandardcompanionfilename_fea85a56634aa93adefc0fbf9a4c6b5d.dita" navtitle="gbBinaryStandardCompanionFileName($)"/>
+    <topicref href="c_gbbinarystandardcompanionfilecontent_9e0efe3e99f364e1a125cf6ef36a5868.dita" navtitle="gbBinaryStandardCompanionFileContent($)"/>
+    <topicref href="c_gbbinarystandardcreatefile_2e33b7b163d3aacf47ade9e9ad3a10ef.dita" navtitle="gbBinaryStandardCreateFile($$$$)"/>
+    <topicref href="c_gbbinarystandardrename_3a41e25d1155867571a77180ffca1de3.dita" navtitle="gbBinaryStandardRename($)"/>
+    <topicref href="c_gbbinarystandardcopyfile_b9201e6d00881b9f54cb230620158a55.dita" navtitle="gbBinaryStandardCopyFile($$)"/>
+    <topicref href="c_gbbinarystandarddelete_2cd60d3a9b4f5445435320b381084e45.dita" navtitle="gbBinaryStandardDelete($)"/>
+  </chapter>
+  <appendices/>
+  <reltable>
+    <relheader>
+      <relcolspec/>
+      <relcolspec/>
+    </relheader>
+    <relrow>
+      <relcell/>
+      <relcell/>
+    </relrow>
+    <relrow>
+      <relcell/>
+      <relcell/>
+    </relrow>
+  </reltable>
+</bookmap>
+<!--linted: 2019-07-21 at 13:07:19 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: bookmap -->
+<!--docType: <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/bm_gbstandard_fc765d08f86b3c9133991aeb1ab564f9.ditamap -->
+<!--guid: GUID-f4f5f90d-a4dd-83ad-5d46-da9f3da2df12 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: gbStandard -->
+<!--definition: GUID-f4f5f90d-a4dd-83ad-5d46-da9f3da2df12 -->
+<!--labels: GUID-f4f5f90d-a4dd-83ad-5d46-da9f3da2df12 GUID-c8579062-4bc0-5855-19d9-79b2c54a4e62 -->
