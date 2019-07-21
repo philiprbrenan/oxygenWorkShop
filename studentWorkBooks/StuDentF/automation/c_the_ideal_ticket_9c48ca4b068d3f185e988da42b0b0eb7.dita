@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-11f90526-6dd1-b233-02b9-d37d05e146fb" outputclass="2">
+  <title id="The-ideal-ticket">The ideal ticket.</title>
+  <conbody>
+    <p>(1) Tells me how to find nodes to which to apply step (2) (2) Provides a
+worked example step by step demonstrating the proposed transformation (3)
+Provides a before file to become part of the regression test suite (4) Provides
+an after file to show me the expected results (5) Might provide a wild example
+if relevant</p>
+    <p>A well rehearsed ticket can be programmed while listening to &quot;In my
+time of dying&quot; et al.</p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:02:34 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_the_ideal_ticket_9c48ca4b068d3f185e988da42b0b0eb7.dita -->
+<!--guid: GUID-11f90526-6dd1-b233-02b9-d37d05e146fb -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/automation.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: The ideal ticket. -->
+<!--definition: The-ideal-ticket -->
+<!--definition: GUID-11f90526-6dd1-b233-02b9-d37d05e146fb -->
