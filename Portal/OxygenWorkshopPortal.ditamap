@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Oxygen Workshop Sept 24 Portal</title>
+    <topicmeta>
+        <othermeta name="slide-subtitle" content="  "/>
+    </topicmeta>
+    <topicref>
+        <topicref href="StudentA.dita">
+            <topicref href="../StudentA/StudentAMap.ditamap" format="ditamap"/>
+
+
+<ul id="index">
+  <li><a href="#Name">Name</a></li>
+  <li><a href="#Synopsis">Synopsis</a>
+    <ul>
+      <li><a href="#Benefits">Benefits</a>
+        <ul>
+          <li><a href="#Parallel-Processing">Parallel Processing</a></li>
+          <li><a href="#File-Flattening">File Flattening</a></li>
+          <li><a href="#No-Relative-Paths-in-References">No Relative Paths in References</a></li>
+          <li><a href="#Relocating-Dita-References-After-Folder-Restructuring">Relocating Dita References After Folder Restructuring</a></li>
+          <li><a href="#Similar-Files-Tend-To-Appear-Close-Together-In-Directory-Listings">Similar Files Tend To Appear Close Together In Directory Listings.</a></li>
+          <li><a href="#Copying-And-Moving-Files-For-Global-Interoperability">Copying And Moving Files For Global Interoperability</a></li>
+          <li><a href="#Guidization-For-Content-Management-Systems">Guidization For Content Management Systems</a></li>
+          <li><a href="#Using-Dita-Tags-To-Describe-Content">Using Dita Tags To Describe Content</a></li>
+          <li><a href="#Cut-And-Paste">Cut And Paste</a></li>
+          <li><a href="#CSV-files">CSV files</a></li>
+          <li><a href="#Automatic-File-Versioning">Automatic File Versioning</a></li>
+          <li><a href="#Enhanced-Command-Line-Processing">Enhanced Command Line Processing</a></li>
+          <li><a href="#Locating-Files-by-Their-Original-Names-Or-Other-Meta-Data">Locating Files by Their Original Names Or Other Meta-Data</a></li>
+        </ul>
+      </li>
+      <li><a href="#Companion-File">Companion File</a></li>
+      <li><a href="#Alternate-File-Names">Alternate File Names</a></li>
+      <li><a href="#Implementation">Implementation</a></li>
+      <li><a href="#Binary-vs-Utf8">Binary vs Utf8</a></li>
+      <li><a href="#Documentation-Copyright">Documentation Copyright</a></li>
+    </ul>
+  </li>
+  <li><a href="#Description">Description</a></li>
+  <li><a href="#Make-and-manage-utf8-files">Make and manage utf8 files</a>
+    <ul>
+      <li><a href="#gbStandardFileName">gbStandardFileName($$%)</a></li>
+      <li><a href="#gbStandardCompanionFileName">gbStandardCompanionFileName($)</a></li>
+      <li><a href="#gbStandardCompanionFileContent">gbStandardCompanionFileContent($)</a></li>
+      <li><a href="#gbStandardCreateFile">gbStandardCreateFile($$$%)</a></li>
+      <li><a href="#gbStandardRename">gbStandardRename($%)</a></li>
+      <li><a href="#gbStandardCopyFile">gbStandardCopyFile($%)</a></li>
+      <li><a href="#gbStandardDelete">gbStandardDelete($)</a></li>
+    </ul>
+  </li>
+  <li><a href="#Make-and-manage-binary-files">Make and manage binary files</a>
+    <ul>
+      <li><a href="#gbBinaryStandardFileName">gbBinaryStandardFileName($$)</a></li>
+      <li><a href="#gbBinaryStandardCompanionFileName">gbBinaryStandardCompanionFileName($)</a></li>
+      <li><a href="#gbBinaryStandardCompanionFileContent">gbBinaryStandardCompanionFileContent($)</a></li>
+      <li><a href="#gbBinaryStandardCreateFile">gbBinaryStandardCreateFile($$$$)</a></li>
+      <li><a href="#gbBinaryStandardRename">gbBinaryStandardRename($)</a></li>
+      <li><a href="#gbBinaryStandardCopyFile">gbBinaryStandardCopyFile($$)</a></li>
+      <li><a href="#gbBinaryStandardDelete">gbBinaryStandardDelete($)</a></li>
+    </ul>
+  </li>
+  <li><a href="#Index">Index</a></li>
+  <li><a href="#Exports">Exports</a></li>
+  <li><a href="#Installation">Installation</a></li>
+  <li><a href="#Author">Author</a></li>
+  <li><a href="#Copyright">Copyright</a></li>
+</ul>
+
+        </topicref>
+        <topicref href="StudentB.dita">
+            <topicref href="../StudentB/StudentBMap.ditamap" format="ditamap"/>
+        </topicref>
+        <topicref href="StudentC.dita">
+            <topicref href="../StudentC/StudentCMap.ditamap" format="ditamap"/>
+        </topicref>
+    </topicref>
+<topicref href="../studentWorkBooks/StuDentD/StudenTemplatetMap.ditamap" format="ditamap" navtitle="Stu DentD"/>
+<topicref href="../studentWorkBooks/StuDentE/StudenTemplatetMap.ditamap" format="ditamap" navtitle="Stu DentE"/>
+<topicref href="../studentWorkBooks/StuDentF/StudenTemplatetMap.ditamap" format="ditamap" navtitle="Stu DentF"/>
+<topicref href="../studentWorkBooks/StuDentG/StudenTemplatetMap.ditamap" format="ditamap" navtitle="Stu DentG"/>
+<topicref href="../studentWorkBooks/StuDentH/StudenTemplatetMap.ditamap" format="ditamap" navtitle="Stu DentH"/>
+</map>
