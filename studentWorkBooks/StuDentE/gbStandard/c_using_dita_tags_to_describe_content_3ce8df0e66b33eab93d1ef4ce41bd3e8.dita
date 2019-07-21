@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-92970b73-b108-c5e0-9238-4e7c69e849d2" outputclass="3">
+  <title id="Using-Dita-Tags-To-Describe-Content">Using Dita Tags To Describe Content</title>
+  <conbody>
+    <p>The 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ encourages 
+      <xref format="html" href="http://docs.oasis-open.org/dita/dita/v1.3/os/part2-tech-content/dita-v1.3-os-part2-tech-content.html" scope="external">Dita</xref>
+ users to use meta data tags to describe their documents so that content can be found by searching with 
+      <xref format="html" href="https://en.wikipedia.org/wiki/Grep" scope="external">grep</xref>
+ rather than encoding file meta data in file names then searching for the required file using 
+      <xref format="html" href="https://en.wikipedia.org/wiki/Find_(Unix)" scope="external">find</xref>. 
+Such file names quickly become very long and unmanageable: on the one hand they need spaces in them to make them readable, but on the other hand, the spaces make such files difficult to cut and paste or use from the 
+      <xref format="html" href="https://en.wikipedia.org/wiki/Command-line_interface" scope="external">command line</xref>.
+    </p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:16 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_using_dita_tags_to_describe_content_3ce8df0e66b33eab93d1ef4ce41bd3e8.dita -->
+<!--guid: GUID-92970b73-b108-c5e0-9238-4e7c69e849d2 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Using Dita Tags To Describe Content -->
+<!--definition: Using-Dita-Tags-To-Describe-Content -->
+<!--definition: GUID-92970b73-b108-c5e0-9238-4e7c69e849d2 -->
