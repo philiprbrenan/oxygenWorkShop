@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-a3721b2f-cafa-3e21-1b46-ce0024ef927a" outputclass="2">
+  <title id="Avoid-Fragmenting-Our-Efforts">Avoid Fragmenting Our Efforts</title>
+  <conbody>
+    <p>More generally, stop clients from dictating unscalable solutions because
+they have no experience of scale whereas we do. Scale always magnifies the
+slightest inconsistencies and errors which are invisible at the small scale
+normally encountered in a customer's daily life. These invisible problems
+become highly visible and thus problematic to us when we are working on lots of
+their files at once.</p>
+    <p>Conversely, it is much more profitable to work on big projects than small
+ones!</p>
+    <p>Dividing one big potentially profitable project into 4 small projects
+potentially produces 4 unprofitable projects because of all the task switching
+with other projects going on simultaneously.</p>
+    <p>However, we should still do a PoC on the square root of the number of
+documents involved if we are unfamiliar with the source xml.</p>
+    <p>Every-one should read: &quot;The Mythical Man Month&quot;!!!!!</p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:02:33 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_avoid_fragmenting_our_efforts_4cfbc89df6ab51927329ccd312b3da6a.dita -->
+<!--guid: GUID-a3721b2f-cafa-3e21-1b46-ce0024ef927a -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/automation.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Avoid Fragmenting Our Efforts -->
+<!--definition: Avoid-Fragmenting-Our-Efforts -->
+<!--definition: GUID-a3721b2f-cafa-3e21-1b46-ce0024ef927a -->
