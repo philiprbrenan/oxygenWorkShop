@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-4b48b030-f25c-0e79-abc6-70e26ee3d735" outputclass="2">
+  <title id="gbStandardCopyFile">gbStandardCopyFile($%)</title>
+  <conbody>
+    <p>Copy a file to the specified 
+      <b>$target</b>
+ folder renaming it to the 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>. 
+If no 
+      <b>$Target</b>
+ folder is specified then rename the file in its current folder so that it does comply with the 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>.
+    </p>
+    <pre>
+      <codeph>     Parameter  Description
+  1  $source    Source file
+  2  %options   Options</codeph>
+    </pre>
+    <p>
+      <b>Example:</b>
+    </p>
+    <pre>
+      <codeph>  if (1) {
+    my $s = q(abc &amp;#x1D770;&amp;#x1D771;&amp;#x1D772;);
+    my $S = q(Hello World);
+    my $d = q(out/);
+    my $D = q(out2/);
+    clearFolder($_, 10) for $d, $D;
+    my $f = gbStandardCreateFile($d, $s, q(xml), companionContent=&gt;$S);           # Create file
+    ok -e $f;
+    ok readFile($f) eq $s;
+    my $c = gbStandardCompanionFileName($f);                                      # Check companion file
+    ok -e $c;
+    ok readFile($c) eq $S;
+    my $F = &amp;#x1D5F4;&amp;#x1D5EF;&amp;#x1D5E6;&amp;#x1D601;&amp;#x1D5EE;&amp;#x1D5FB;&amp;#x1D5F1;&amp;#x1D5EE;&amp;#x1D5FF;&amp;#x1D5F1;&amp;#x1D5D6;&amp;#x1D5FC;&amp;#x1D5FD;&amp;#x1D606;&amp;#x1D5D9;&amp;#x1D5F6;&amp;#x1D5F9;&amp;#x1D5F2;($f, target=&gt;$D);                                   # Copy file
+    ok -e $F;
+    ok readFile($F) eq $s;
+    my $C = gbStandardCompanionFileName($F);                                      # Check companion file
+    ok -e $C;
+    ok readFile($C) eq $S;
+    ok !gbStandardRename($F);                                                     # No rename required to standardize file name
+    gbStandardDelete($F);                                                         # Delete file and its companion file
+    ok !-e $F;
+    ok !-e $C;
+    clearFolder($_, 10) for $d, $D;
+   }</codeph>
+    </pre>
+    <p>This method can be imported via:</p>
+    <pre>
+      <codeph>  use Dita::GB::Standard qw(gbStandardCopyFile)</codeph>
+    </pre>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:18 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_gbstandardcopyfile_b09c7b9ed456e1f1dfc74abeca7b712e.dita -->
+<!--guid: GUID-4b48b030-f25c-0e79-abc6-70e26ee3d735 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: gbStandardCopyFile($%) -->
+<!--definition: gbStandardCopyFile -->
+<!--definition: GUID-4b48b030-f25c-0e79-abc6-70e26ee3d735 -->
