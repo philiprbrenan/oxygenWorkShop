@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-96b72011-e86f-1c3d-fe77-7b3524a246a8" outputclass="3">
+  <title id="Enhanced-Command-Line-Processing">Enhanced Command Line Processing</title>
+  <conbody>
+    <p>As file names named with the 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ do not have spaces in them (such as 
+      <xref format="html" href="https://en.wikipedia.org/wiki/Zero-width_space" scope="external">zero width space</xref>) 
+they work well on the 
+      <xref format="html" href="https://en.wikipedia.org/wiki/Command-line_interface" scope="external">command line</xref>
+ and with the many 
+      <xref format="html" href="https://en.wikipedia.org/wiki/Command-line_interface" scope="external">command line</xref>
+ tools that are used to manipulate such files enhancing the productivity leverage that 
+      <xref format="html" href="https://en.wikipedia.org/wiki/Command-line_interface" scope="external">command line</xref>
+ has always had versus 
+      <xref format="html" href="https://en.wikipedia.org/wiki/Graphical_user_interface" scope="external">graphical user interface</xref>
+ processing.
+    </p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:17 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_enhanced_command_line_processing_48d79d0a8dc3b9b8b46d4c3b2a037e6f.dita -->
+<!--guid: GUID-96b72011-e86f-1c3d-fe77-7b3524a246a8 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Enhanced Command Line Processing -->
+<!--definition: Enhanced-Command-Line-Processing -->
+<!--definition: GUID-96b72011-e86f-1c3d-fe77-7b3524a246a8 -->
