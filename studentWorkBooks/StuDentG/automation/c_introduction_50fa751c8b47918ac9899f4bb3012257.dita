@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-9ec19b36-6a68-6fba-ce00-c497305a4466">
+  <title/>
+  <xref format="html" href="mailto:root@localhost" rev="made" scope="external"/>
+  <conbody>
+    <section outputclass="1">
+      <title id="Introduction">Introduction</title>
+      <p>&quot;Simon Napier-Bell told me that bands who don't fight tend to be
+creatively moribund. He recalled an argument between the Yardbirds in the
+recording studio, over whether the guitarist, Jeff Beck, should be allowed a
+solo. Beck felt he wasn't being given enough room to express himself.
+Eventually, the others grudgingly let him have a few bars on a song called
+'The Nazz Are Blue.' 
+        <xref format="html" href="https://www.youtube.com/watch?v=LPpSh1CkLLI" scope="external">https://www.youtube.com/watch?v=LPpSh1CkLLI</xref>
+&quot;.
+      </p>
+      <p>Napier-Bell sat with the band and watched as Beck recorded his solo. When it
+came to his bars, Beck simply struck one note and let it bleed into feedback,
+all the while glowering with defiance at his bandmates. 'Everything he felt
+was in that note.' said Napier-Bell. 'It's the high point of the
+album.'&quot;&amp;#xFEFF;</p>
+    </section>
+    <section outputclass="1">
+      <title id="Services">The services we offer</title>
+    </section>
+    <section outputclass="1">
+      <title id="Operational-Improvements">Operational Improvements</title>
+    </section>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:02:34 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_introduction_50fa751c8b47918ac9899f4bb3012257.dita -->
+<!--guid: GUID-9ec19b36-6a68-6fba-ce00-c497305a4466 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/automation.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--definition: Introduction -->
+<!--definition: Services -->
+<!--definition: Operational-Improvements -->
+<!--definition: GUID-9ec19b36-6a68-6fba-ce00-c497305a4466 -->
+
+<!-- -:31: element concept: validity error : Element concept content does not follow the DTD, expecting (title , titlealts? , (abstract | shortdesc)? , prolog? , conbody? , related-links? , concept*), got (title xref conbody ) -->
+<!-- </concept> -->
+<!--           ^ -->
+
+<!--errors: 1 -->
+<!--compressedErrors: 1 -->
+<!-- Element concept content does not follow the DTD, expecting (title , titlealts? , (abstract | shortdesc)? , prolog? , conbody? , related-links? , concept*), got (title xref conbody )-->
