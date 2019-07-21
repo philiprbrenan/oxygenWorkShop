@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-2ac34bf5-307b-a66f-e29e-93d9532c9270" outputclass="2">
+  <title id="Dita-in-Git">Dita in Git</title>
+  <conbody>
+    <p>Let our customers use S3, BitBucket, GitHub, or GitLab for their content
+manager, then use Xref to analyze their content and publish it with our
+parallel publishing pipe line on AWS.</p>
+    <p>Specialize in liberating (ex) SDL customers!</p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:02:33 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_dita_in_git_5ca7e26242333b18d96573234cda10db.dita -->
+<!--guid: GUID-2ac34bf5-307b-a66f-e29e-93d9532c9270 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/automation.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Dita in Git -->
+<!--definition: Dita-in-Git -->
+<!--definition: GUID-2ac34bf5-307b-a66f-e29e-93d9532c9270 -->
