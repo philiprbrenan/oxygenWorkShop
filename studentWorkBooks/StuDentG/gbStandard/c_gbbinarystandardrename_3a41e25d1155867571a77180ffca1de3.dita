@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-295db209-0a5a-9bb8-da5b-6bc1c8b85639" outputclass="2">
+  <title id="gbBinaryStandardRename">gbBinaryStandardRename($)</title>
+  <conbody>
+    <p>Check whether a file needs to be renamed to match the 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>. 
+Return the correct name for the file or 
+      <b>undef</b>
+ if the name is already correct.
+    </p>
+    <pre>
+      <codeph>     Parameter  Description
+  1  $file      File to check</codeph>
+    </pre>
+    <p>
+      <b>Example:</b>
+    </p>
+    <pre>
+      <codeph>  if (1) {
+    my $s = qq(\0abc\1);
+    my $S = q(Hello World);
+    my $d = q(out/);
+    my $D = q(out2/);
+    clearFolder($_, 10) for $d, $D;
+    my $f = gbBinaryStandardCreateFile($d, $s, q(xml), $S);                       # Create file
+    ok -e $f;
+    ok readFile($f) eq $s;
+    my $c = gbBinaryStandardCompanionFileName($f);                                # Check companion file
+    ok -e $c;
+    ok gbStandardCompanionFileContent($c) eq $S;
+    ok gbBinaryStandardCompanionFileContent($f) eq $S;                            # Check companion file content
+    my $F = gbBinaryStandardCopyFile($f, $D);                                     # Copy file
+    ok -e $F;
+    ok readFile($F) eq $s;
+    my $C = gbBinaryStandardCompanionFileName($F);                                # Check companion file
+    ok -e $C;
+    ok gbBinaryStandardCompanionFileContent($C) eq $S;
+    ok gbStandardCompanionFileContent($F) eq $S;                                  # Check companion file content
+    ok !&amp;#x1D5F4;&amp;#x1D5EF;&amp;#x1D5D5;&amp;#x1D5F6;&amp;#x1D5FB;&amp;#x1D5EE;&amp;#x1D5FF;&amp;#x1D606;&amp;#x1D5E6;&amp;#x1D601;&amp;#x1D5EE;&amp;#x1D5FB;&amp;#x1D5F1;&amp;#x1D5EE;&amp;#x1D5FF;&amp;#x1D5F1;&amp;#x1D5E5;&amp;#x1D5F2;&amp;#x1D5FB;&amp;#x1D5EE;&amp;#x1D5FA;&amp;#x1D5F2;($F);                                               # No rename required to standardize file name
+    gbBinaryStandardDelete($F);                                                   # Delete file and its companion file
+    ok !-e $F;
+    ok !-e $C;
+    clearFolder($_, 10) for $d, $D;
+   }</codeph>
+    </pre>
+    <p>This method can be imported via:</p>
+    <pre>
+      <codeph>  use Dita::GB::Standard qw(gbBinaryStandardRename)</codeph>
+    </pre>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:18 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_gbbinarystandardrename_3a41e25d1155867571a77180ffca1de3.dita -->
+<!--guid: GUID-295db209-0a5a-9bb8-da5b-6bc1c8b85639 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: gbBinaryStandardRename($) -->
+<!--definition: gbBinaryStandardRename -->
+<!--definition: GUID-295db209-0a5a-9bb8-da5b-6bc1c8b85639 -->
