@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-14972dd2-f39d-ae59-87ba-19705bbdba57" outputclass="2">
+  <title id="gbBinaryStandardCompanionFileContent">gbBinaryStandardCompanionFileContent($)</title>
+  <conbody>
+    <p>Return the content of the 
+      <xref href="#Companion-File">&quot;Companion File&quot;</xref>
+ given a file whose name complies with the binary 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>.
+    </p>
+    <pre>
+      <codeph>     Parameter  Description
+  1  $file      L&lt;GB Standard|http://metacpan.org/pod/Dita::GB::Standard&gt; file name</codeph>
+    </pre>
+    <p>
+      <b>Example:</b>
+    </p>
+    <pre>
+      <codeph>  if (1) {
+    my $s = qq(\0abc\1);
+    my $S = q(Hello World);
+    my $d = q(out/);
+    my $D = q(out2/);
+    clearFolder($_, 10) for $d, $D;
+    my $f = gbBinaryStandardCreateFile($d, $s, q(xml), $S);                       # Create file
+    ok -e $f;
+    ok readFile($f) eq $s;
+    my $c = gbBinaryStandardCompanionFileName($f);                                # Check companion file
+    ok -e $c;
+    ok gbStandardCompanionFileContent($c) eq $S;
+    ok &amp;#x1D5F4;&amp;#x1D5EF;&amp;#x1D5D5;&amp;#x1D5F6;&amp;#x1D5FB;&amp;#x1D5EE;&amp;#x1D5FF;&amp;#x1D606;&amp;#x1D5E6;&amp;#x1D601;&amp;#x1D5EE;&amp;#x1D5FB;&amp;#x1D5F1;&amp;#x1D5EE;&amp;#x1D5FF;&amp;#x1D5F1;&amp;#x1D5D6;&amp;#x1D5FC;&amp;#x1D5FA;&amp;#x1D5FD;&amp;#x1D5EE;&amp;#x1D5FB;&amp;#x1D5F6;&amp;#x1D5FC;&amp;#x1D5FB;&amp;#x1D5D9;&amp;#x1D5F6;&amp;#x1D5F9;&amp;#x1D5F2;&amp;#x1D5D6;&amp;#x1D5FC;&amp;#x1D5FB;&amp;#x1D601;&amp;#x1D5F2;&amp;#x1D5FB;&amp;#x1D601;($f) eq $S;                            # Check companion file content
+    my $F = gbBinaryStandardCopyFile($f, $D);                                     # Copy file
+    ok -e $F;
+    ok readFile($F) eq $s;
+    my $C = gbBinaryStandardCompanionFileName($F);                                # Check companion file
+    ok -e $C;
+    ok &amp;#x1D5F4;&amp;#x1D5EF;&amp;#x1D5D5;&amp;#x1D5F6;&amp;#x1D5FB;&amp;#x1D5EE;&amp;#x1D5FF;&amp;#x1D606;&amp;#x1D5E6;&amp;#x1D601;&amp;#x1D5EE;&amp;#x1D5FB;&amp;#x1D5F1;&amp;#x1D5EE;&amp;#x1D5FF;&amp;#x1D5F1;&amp;#x1D5D6;&amp;#x1D5FC;&amp;#x1D5FA;&amp;#x1D5FD;&amp;#x1D5EE;&amp;#x1D5FB;&amp;#x1D5F6;&amp;#x1D5FC;&amp;#x1D5FB;&amp;#x1D5D9;&amp;#x1D5F6;&amp;#x1D5F9;&amp;#x1D5F2;&amp;#x1D5D6;&amp;#x1D5FC;&amp;#x1D5FB;&amp;#x1D601;&amp;#x1D5F2;&amp;#x1D5FB;&amp;#x1D601;($C) eq $S;
+    ok gbStandardCompanionFileContent($F) eq $S;                                  # Check companion file content
+    ok !gbBinaryStandardRename($F);                                               # No rename required to standardize file name
+    gbBinaryStandardDelete($F);                                                   # Delete file and its companion file
+    ok !-e $F;
+    ok !-e $C;
+    clearFolder($_, 10) for $d, $D;
+   }</codeph>
+    </pre>
+    <p>This method can be imported via:</p>
+    <pre>
+      <codeph>  use Dita::GB::Standard qw(gbBinaryStandardCompanionFileContent)</codeph>
+    </pre>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:18 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_gbbinarystandardcompanionfilecontent_9e0efe3e99f364e1a125cf6ef36a5868.dita -->
+<!--guid: GUID-14972dd2-f39d-ae59-87ba-19705bbdba57 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: gbBinaryStandardCompanionFileContent($) -->
+<!--definition: gbBinaryStandardCompanionFileContent -->
+<!--definition: GUID-14972dd2-f39d-ae59-87ba-19705bbdba57 -->
