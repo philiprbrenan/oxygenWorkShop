@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-19a9373e-f230-a52c-8279-f101ea9c9e85" outputclass="2">
+  <title id="Companion-File">Companion File</title>
+  <conbody>
+    <p>Each file named using the 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ may be accompanied by a 
+      <xref href="#Companion-File">&quot;Companion File&quot;</xref>
+ that contains meta data describing the file, said data formatted as a 
+      <xref format="html" href="http://www.perl.org/" scope="external">Perl</xref>
+ data structure.
+    </p>
+    <p>The name of the 
+      <xref href="#Companion-File">&quot;Companion File&quot;</xref>
+ is obtained by removing the extension from the file named using the 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>.
+    </p>
+    <p>As the content of the companion files is in plain text, such text is easy to search using 
+      <xref format="html" href="https://en.wikipedia.org/wiki/Grep" scope="external">grep</xref>
+ or other textual search tools.
+    </p>
+    <p>A common use of the companion file is to record the orginal file name and author of the content in question:</p>
+    <pre>
+      <codeph>  {source=&gt;q(C:/my documents/dita files/content.dita),
+   author=&gt;q(A. N. Mouse),
+  }</codeph>
+    </pre>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:17 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_companion_file_10cd5e68dabd939400867de04250fbb6.dita -->
+<!--guid: GUID-19a9373e-f230-a52c-8279-f101ea9c9e85 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Companion File -->
+<!--definition: Companion-File -->
+<!--definition: GUID-19a9373e-f230-a52c-8279-f101ea9c9e85 -->
