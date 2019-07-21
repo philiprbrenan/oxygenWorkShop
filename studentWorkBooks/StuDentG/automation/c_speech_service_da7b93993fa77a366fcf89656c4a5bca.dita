@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-1ce810a5-bcc2-538d-cacb-335a3b8a129c" outputclass="2">
+  <title id="Speech-Service">Speech Service</title>
+  <conbody>
+    <p>Translate text to speech using AWS Polly: 
+      <xref format="html" href="https://aws.amazon.com/polly/features/" scope="external">https://aws.amazon.com/polly/features/</xref>
+so that we can produce documents that speak!
+    </p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:02:33 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_speech_service_da7b93993fa77a366fcf89656c4a5bca.dita -->
+<!--guid: GUID-1ce810a5-bcc2-538d-cacb-335a3b8a129c -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/automation.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Speech Service -->
+<!--definition: Speech-Service -->
+<!--definition: GUID-1ce810a5-bcc2-538d-cacb-335a3b8a129c -->
