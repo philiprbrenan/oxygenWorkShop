@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="c1">
+  <title>Demo Self Service Xref and Publish</title>
+  <conbody>
+    <ol>
+      <li>
+        <p>Teresa has created a
+          <xref format="html" href="https://github.com" scope="external">GitHub</xref>
+ repository layout for the Oxygen Workshop.
+        </p>
+        <fig>
+          <title>Teresa's Oxygen Workshop GitHub repository layout.</title>
+          <image href="images/4/s010237.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>The repository contains a
+          <xref format="html" href="https://en.wikipedia.org/wiki/Comma-separated_values" scope="external">csv</xref>
+ file describing the students taking the course
+        </p>
+        <fig>
+          <title>The details of the students taking the course.</title>
+          <image href="images/4/s010403.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>The repository contains a template
+          <xref format="html" href="https://en.wikipedia.org/wiki/File_folder" scope="external">folder</xref>
+  which describes the layout of each
+          students work area. Phil has written a Perl program that copies this
+          template
+          <xref format="html" href="https://en.wikipedia.org/wiki/File_folder" scope="external">folder</xref>
+ into each student's work area.
+        </p>
+        <fig>
+          <title>Template folder to copy to each student.</title>
+          <image href="images/4/s010559.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>The Workshop repository showing the student work books - that is - the documents that each student will modify during the course.</p>
+        <fig>
+          <title>Student work books.</title>
+          <image href="images/4/s010627.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>Each of the student's book maps can be personalized.</p>
+        <fig>
+          <title>Personalized Student map.</title>
+          <image href="images/4/s010650.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>Phil has created a
+          <xref format="html" href="https://github.com" scope="external">GitHub</xref>
+        repository with a copy of the Student's
+        work files. A working repository is a good idea because it stops the
+        students inadvertently damaging our master copy as held in Teresa's
+        repo.
+        </p>
+        <fig>
+          <title>Phil's version of Teresa's workshop repo.</title>
+          <image href="images/4/s010729.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>Phil's version of the repo also holds a copy of the source for the
+        document: &quot;Self Service Xref and Publish&quot;.  This document is
+        written as a
+          <xref format="html" href="http://docs.oasis-open.org/dita/dita/v1.3/errata02/os/complete/part3-all-inclusive/langRef/technicalContent/task.html#task" scope="external">Dita Task</xref>.
+We have access to an excellent example of a
+          <xref format="html" href="http://docs.oasis-open.org/dita/dita/v1.3/errata02/os/complete/part3-all-inclusive/langRef/technicalContent/concept.html#concept" scope="external">Dita Concept</xref>
+ in the
+          <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ which I believe Bill has written up.  It would not be difficult to format a reference topic from
+          <xref format="html" href="https://metacpan.org/pod/Data::Edit::Xml" scope="external">Data::Edit::Xml</xref>.
+These documents, if worked up a little further, would make useful examples of the major
+          <xref format="html" href="http://docs.oasis-open.org/dita/dita/v1.3/os/part2-tech-content/dita-v1.3-os-part2-tech-content.html" scope="external">Dita</xref>
+ topic formats.
+        </p>
+        <fig>
+          <title>Phil's version of Teresa's workshop repo showing addition of Xref.xml</title>
+          <image href="images/4/s010809.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>Each student gets a complete copy of the document &quot;Self Service Xref and Publish&quot;. Lets see what happens if we run
+          <xref format="html" href="https://metacpan.org/pod/Data::Edit::Xml::Xref" scope="external">Data::Edit::Xml::Xref</xref>
+ against these files.
+        </p>
+        <fig>
+          <title>Phil's version of Teresa's workshop repo showing a screenshot
+          in the student's work area.</title>
+          <image href="images/4/s010830.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>First we start a spot instance of the right size on AWS and make a copy of its
+          <xref format="html" href="https://en.wikipedia.org/wiki/IP_address" scope="external">IP address</xref>.
+        </p>
+        <fig>
+          <title>Get the IP address of the spot instance.</title>
+          <image href="images/4/s010855.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>We enter the
+          <xref format="html" href="https://en.wikipedia.org/wiki/IP_address" scope="external">IP address</xref>
+ into any browser to reach the web server embedded in the spot instance and navigate to the page where we can enter the
+          <xref format="html" href="https://en.wikipedia.org/wiki/URL" scope="external">url</xref>
+ of the
+          <xref format="html" href="https://github.com" scope="external">GitHub</xref>
+ repository we wish to
+          <xref format="html" href="https://metacpan.org/pod/Data::Edit::Xml::Xref" scope="external">Data::Edit::Xml::Xref</xref> .
+        </p>
+        <fig>
+          <title>Spot instance web server home page.</title>
+          <image href="images/4/s010921.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>Once we have entered the url of our
+          <xref format="html" href="https://github.com" scope="external">GitHub</xref>
+ repository  we can press the
+          <uicontrol>start</uicontrol>
+ button to start the conversion.
+        </p>
+        <fig>
+          <title>Ready to Enter GitHub repo name into web site.</title>
+          <image href="images/4/s000442.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>As you an see,
+          <xref format="html" href="https://metacpan.org/pod/Data::Edit::Xml::Xref" scope="external">Data::Edit::Xml::Xref</xref>
+ is ready to run.
+        </p>
+        <fig>
+          <title>Web site with repo entered and ready to start.</title>
+          <image href="images/4/s010941.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>When the conversion starts it displays the current processing status of the conversion via a log of the actions performed and by the process status.</p>
+        <fig>
+          <title>Conversion started.</title>
+          <image href="images/4/s010951.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>Press the
+          <uicontrol>Refresh</uicontrol>
+         button to see the latest conversion status.
+        </p>
+        <fig>
+          <title>Conversion running.</title>
+          <image href="images/4/s011004.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>When the conversion has completed the results are zipped into a file which can be downloaded.</p>
+        <fig>
+          <title>Conversion results zip file.</title>
+          <image href="images/4/s011112.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>The results zip folder contains some well known folders.</p>
+        <fig>
+          <title>Overview of downloaded results zip file.</title>
+          <image href="images/4/s003124.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>In particular the
+          <filepath>out/</filepath>
+ folder contains the results
+of flattening all the images and xml files.  If, as in this case, the students
+have yet to make any changes, then a considerable amount of flattening is
+possible and as can be seen in this screenshot.
+        </p>
+        <fig>
+          <title>Flattened files
+in folder out/ of results zip file.</title>
+          <image href="images/4/s003558.png"/>
+        </fig>
+      </li>
+<!-- dup -->
+      <li>
+        <p>The  <filepath>publications/</filepath>
+        </p>
+        <fig>
+          <title>Each map published as PDF</title>
+          <image href="images/4/s051243.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>Now lets turn out attention to how we actually write
+          <xref format="html" href="http://docs.oasis-open.org/dita/dita/v1.3/os/part2-tech-content/dita-v1.3-os-part2-tech-content.html" scope="external">Dita</xref>
+ xml.  Please create an empty file. Type the letter
+          <codeph>c</codeph>
+ for concept and press
+          <codeph>tab</codeph>
+ to get an empty concept.
+        </p>
+        <fig>
+          <title>Edit Xml - Create concept.</title>
+          <image href="images/4/s030631.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>Fill in the title of the concept.</p>
+        <fig>
+          <title>Edit Xml - Add title.</title>
+          <image href="images/4/s030948.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>Use the same technique to create an ordered list.  Type
+          <codeph>olllll</codeph>
+ and press tab to create an ordered list with five items in it.
+        </p>
+        <fig>
+          <title>Edit Xml - Create first ol.</title>
+          <image href="images/4/s011200.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>Create a second similar ordered list using
+          <codeph>ollllL</codeph>.
+        </p>
+        <fig>
+          <title>Edit Xml - Create second ol.</title>
+          <image href="images/4/s011229.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>Now we have two lists and would like to merge them into one list.</p>
+        <fig>
+          <title>Edit Xml - Create second ol result.</title>
+          <image href="images/4/s011236.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>To perform an action on an xml node, type a function name from
+          <xref format="html" href="https://metacpan.org/pod/Data::Edit::Xml" scope="external">Data::Edit::Xml</xref>
+ against the closing angle bracket and  press
+          <uicontrol>Execute</uicontrol>
+        </p>
+        <fig>
+          <title>Edit Xml - Start mlp.</title>
+          <image href="images/4/s011256.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>The two lists are merged into one.</p>
+        <fig>
+          <title>Edit Xml - Finish mlp.</title>
+          <image href="images/4/s011321.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>The actions performed are recorded in a log file whise data can be used to drive other processes.</p>
+        <fig>
+          <title>Edit Xml - Finish mlp and show log.</title>
+          <image href="images/4/s011525.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>There are many other such actions available, such as
+          <uicontrol>rrrr</uicontrol>
+ which repeats a node 4 times.
+        </p>
+        <fig>
+          <title>Edit Xml - Start repeat 4 times.</title>
+          <image href="images/4/s011556.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>The results of repeating a node 4 times.  If you start to type an action code, Geany will prompt you with the possibilities.</p>
+        <fig>
+          <title>Edit Xml - Repeat 4 times results.</title>
+          <image href="images/4/s011626.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>You can also select one or a range of nodes by marking them with
+          <codeph>ss</codeph>
+ for start selecyion and
+          <codeph>se</codeph>
+ for selection end.
+        </p>
+        <fig>
+          <title>Edit Xml - Set selection start.</title>
+          <image href="images/4/s011746.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>Once a selection has been made you can move the selection after
+          <codeph>ma</codeph>
+ or before
+          <codeph>mb</codeph>
+ another node.
+        </p>
+        <fig>
+          <title>Edit Xml - Move selection after tag results.</title>
+          <image href="images/4/s011828.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>The results of performing a move after on the selected nodes.</p>
+        <fig>
+          <title>Edit Xml - Selection moved with log.</title>
+          <image href="images/4/s011928.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>It is easy to expand links to well known urls.  Simply type L[shortname] and press
+          <uicontrol>Execute</uicontrol>.
+        </p>
+        <fig>
+          <title>Edit Xml - Ready to expand a link.</title>
+          <image href="images/4/s012008.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>
+          <xref format="html" href="https://metacpan.org/pod/Data::Edit::Xml" scope="external">Data::Edit::Xml</xref>
+ contains many useful functions that can be placed against nodes to transform them. For instance to convert a
+          <xref format="html" href="http://docs.oasis-open.org/dita/dita/v1.3/errata02/os/complete/part3-all-inclusive/langRef/technicalContent/concept.html#concept" scope="external">Dita Concept</xref>
+ to a
+          <xref format="html" href="http://docs.oasis-open.org/dita/dita/v1.3/errata02/os/complete/part3-all-inclusive/langRef/technicalContent/task.html#task" scope="external">Dita Task</xref>
+          <codeph>ct</codeph>
+ against the closing angle bracket of the
+          <xref format="html" href="http://docs.oasis-open.org/dita/dita/v1.3/errata02/os/complete/part3-all-inclusive/langRef/technicalContent/concept.html#concept" scope="external">Dita Concept</xref>
+ and press
+          <uicontrol>Execute</uicontrol>.
+        </p>
+        <fig>
+          <title>Edit Xml - Link expanded. Start conversion to task.</title>
+          <image href="images/4/s012110.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>Using the programmed capabilities in
+          <xref format="html" href="https://metacpan.org/pod/Data::Edit::Xml" scope="external">Data::Edit::Xml</xref>
+ saves a lot of manual labor.
+          <xref format="html" href="http://www,ryffine.com" scope="external">Ryffine</xref>
+ will be pleased to add similar capabilities to assist you in your work.
+        </p>
+        <fig>
+          <title>Edit Xml - Concept converted to task with log showing.</title>
+          <image href="images/4/s012158.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>Another such example is
+          <codeph>cr</codeph>
+ which creates a report showing the numerosity of each type of tag under the specified node.
+        </p>
+        <fig>
+          <title>Edit Xml - Count tags report start.</title>
+          <image href="images/4/s012341.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>The tag count report shows up in the log after you have hit
+          <uicontrol>Execute</uicontrol>.
+        </p>
+        <fig>
+          <title>Edit Xml - Tags count report in log file.</title>
+          <image href="images/4/s012502.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>As a final illustration, try using
+          <codeph>ck</codeph>
+ to change the tags of the immediate children of a specified node.
+        </p>
+        <fig>
+          <title>Edit Xml - Change kids start.</title>
+          <image href="images/4/s012612.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>There again, perhaps not.  Just apply
+          <uicontrol>undo</uicontrol>
+ to remove the unwanted changes.
+        </p>
+        <fig>
+          <title>Edit Xml - Change kids end.</title>
+          <image href="images/4/s012703.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>To validate your Xml press
+          <uicontrol>F8</uicontrol>.
+        </p>
+        <fig>
+          <title>Edit Xml - Validation error in Xml</title>
+          <image href="images/4/s012759.png"/>
+        </fig>
+      </li>
+      <li>
+        <p>To publish your XML as PDF press
+          <uicontrol>F9</uicontrol>.
+        </p>
+        <fig>
+          <title>Edit Xml - Publish to PDF.</title>
+          <image href="images/4/s013038.png"/>
+<!-- dup -->
+          <image href="images/4/s013038.png"/>
+        </fig>
+      </li>
+    </ol>
+  </conbody>
+</concept>
