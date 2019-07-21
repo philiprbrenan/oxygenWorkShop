@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-ca1ca1d6-5f22-12e5-7ca9-108f7f1e247d" outputclass="3">
+  <title id="Automatic-File-Versioning">Automatic File Versioning</title>
+  <conbody>
+    <p>Files named to the 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ File names change when their content changes. So if the content of a file changes its name must change as well. Thus an attempt to present an out-of-date version of a file produces a file name that cannot be found.
+    </p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:16 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_automatic_file_versioning_d9f127961a04f07d9b2bd476f8ce04d7.dita -->
+<!--guid: GUID-ca1ca1d6-5f22-12e5-7ca9-108f7f1e247d -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Automatic File Versioning -->
+<!--definition: Automatic-File-Versioning -->
+<!--definition: GUID-ca1ca1d6-5f22-12e5-7ca9-108f7f1e247d -->
