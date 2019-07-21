@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-589354de-6ff4-e323-28f0-c41e33d8e98d" outputclass="2">
+  <title id="Translation-services">Translation services</title>
+  <conbody>
+    <p>Translate documents using AWS translate, see: 
+      <xref format="html" href="https://docs.aws.amazon.com/translate/latest/dg/what-is.html" scope="external">https://docs.aws.amazon.com/translate/latest/dg/what-is.html</xref>
+for languages available.
+    </p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:02:33 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_translation_services_f44fbce17daf77423b183b749b34c541.dita -->
+<!--guid: GUID-589354de-6ff4-e323-28f0-c41e33d8e98d -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/automation.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Translation services -->
+<!--definition: Translation-services -->
+<!--definition: GUID-589354de-6ff4-e323-28f0-c41e33d8e98d -->
