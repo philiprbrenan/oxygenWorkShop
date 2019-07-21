@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-f8d04004-5cce-5678-9f74-775e4467b7eb" outputclass="2">
+  <title id="Alternate-File-Names">Alternate File Names</title>
+  <conbody>
+    <p>Most operating systems allow the use of links to supply alternate names for a file. Consequently, users who wish to impose a different file naming scheme might care to consider using links to implement their own file naming system on top of the 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ without disrupting the integrity of the 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>.
+    </p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:17 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_alternate_file_names_7eb58079aa8176654caa5e4c2ebdaf30.dita -->
+<!--guid: GUID-f8d04004-5cce-5678-9f74-775e4467b7eb -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Alternate File Names -->
+<!--definition: Alternate-File-Names -->
+<!--definition: GUID-f8d04004-5cce-5678-9f74-775e4467b7eb -->
