@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-1c170fdf-34a5-a732-7a5f-ff67e276bd04" outputclass="2">
+  <title id="Cross-train">Cross train</title>
+  <conbody>
+    <p>We should spend time showing each other how we get things done so that the
+best techniques get adopted more widely and improved there upon.</p>
+    <p>(Example: I am not very sure what the Information Model is used for)</p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:02:34 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_cross_train_296661d0f1b802116fd4a894644fc7a3.dita -->
+<!--guid: GUID-1c170fdf-34a5-a732-7a5f-ff67e276bd04 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/automation.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Cross train -->
+<!--definition: Cross-train -->
+<!--definition: GUID-1c170fdf-34a5-a732-7a5f-ff67e276bd04 -->
