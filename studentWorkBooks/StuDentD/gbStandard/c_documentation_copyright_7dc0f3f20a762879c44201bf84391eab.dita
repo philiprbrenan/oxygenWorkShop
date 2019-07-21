@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-fbbe48ed-c8d6-debc-d395-df47302a229d" outputclass="2">
+  <title id="Documentation-Copyright">Documentation Copyright</title>
+  <conbody>
+    <p>The documentation for this module is dual licensed with the 
+      <xref format="html" href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License" scope="external">GNU Free Documentation License</xref>
+ as well as the 
+      <xref format="html" href="https://dev.perl.org/licenses/artistic.html" scope="external">Perl Artistic Licence</xref>
+ in the hope that this will encourage its further dissemination as a universal standard.
+    </p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:17 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_documentation_copyright_7dc0f3f20a762879c44201bf84391eab.dita -->
+<!--guid: GUID-fbbe48ed-c8d6-debc-d395-df47302a229d -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Documentation Copyright -->
+<!--definition: Documentation-Copyright -->
+<!--definition: GUID-fbbe48ed-c8d6-debc-d395-df47302a229d -->
