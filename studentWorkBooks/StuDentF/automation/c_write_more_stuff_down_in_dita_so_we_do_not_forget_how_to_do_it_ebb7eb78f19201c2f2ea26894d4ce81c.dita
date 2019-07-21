@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-0bffc927-92b2-40fa-fa37-b03f1903a5b9" outputclass="2">
+  <title id="Write-more-stuff-down-in-Dita-so-we-do-not-forget-how-to-do-it">Write more stuff down in Dita so we do not forget how to do it</title>
+  <conbody>
+    <p>That is the essence of what we are telling our customers so we should
+probably do it too!</p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:02:34 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_write_more_stuff_down_in_dita_so_we_do_not_forget_how_to_do_it_ebb7eb78f19201c2f2ea26894d4ce81c.dita -->
+<!--guid: GUID-0bffc927-92b2-40fa-fa37-b03f1903a5b9 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/automation.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Write more stuff down in Dita so we do not forget how to do it -->
+<!--definition: Write-more-stuff-down-in-Dita-so-we-do-not-forget-how-to-do-it -->
+<!--definition: GUID-0bffc927-92b2-40fa-fa37-b03f1903a5b9 -->
