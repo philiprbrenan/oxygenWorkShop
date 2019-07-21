@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-d30b58e9-f418-70fa-14f1-94b1da874bfb" outputclass="3">
+  <title id="Similar-Files-Tend-To-Appear-Close-Together-In-Directory-Listings">Similar Files Tend To Appear Close Together In Directory Listings.</title>
+  <conbody>
+    <p>Imagine the user has several files in different folders all starting:</p>
+    <pre>
+      <codeph>  &lt;title&gt;License Agreement&lt;/title&gt;</codeph>
+    </pre>
+    <p>The 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ computes the human readable component of the name in a consistent way using only the contents of each file. Once the name has been standardized, all these files can be placed in 
+      <b>one</b>
+ folder to get a directory listing like:
+    </p>
+    <pre>
+      <codeph>  license_agreement_a6e3...
+  license_agreement_b532...
+  license_agreement_c65d...</codeph>
+    </pre>
+    <p>This grouping signals that these files are potentially similar to each other and thus might be better merged into one shareable file.</p>
+    <p>As the 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ is applied to ever more such files, ever more such matches occur.
+    </p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:16 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_similar_files_tend_to_appear_close_together_in_directory_listings_61f976f7c140684d3eab77ad62461947.dita -->
+<!--guid: GUID-d30b58e9-f418-70fa-14f1-94b1da874bfb -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Similar Files Tend To Appear Close Together In Directory Listings. -->
+<!--definition: Similar-Files-Tend-To-Appear-Close-Together-In-Directory-Listings -->
+<!--definition: GUID-d30b58e9-f418-70fa-14f1-94b1da874bfb -->
