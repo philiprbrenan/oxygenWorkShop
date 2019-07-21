@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-baac2bfb-c4b2-5ffe-d73f-08a94d5341f2" outputclass="2">
+  <title id="Binary-vs-Utf8">Binary vs Utf8</title>
+  <conbody>
+    <p>Files that are expected to contain data encoded with 
+      <xref format="html" href="https://en.wikipedia.org/wiki/UTF-8" scope="external">utf8</xref>
+ (eg .dita, .xml) should use method names that start with:
+    </p>
+    <pre>
+      <codeph> gbStandard</codeph>
+    </pre>
+    <p>Files that are expected to contain binary data (eg .png, .jpg) should use method names that start with:</p>
+    <pre>
+      <codeph> gbBinaryStandard</codeph>
+    </pre>
+    <p>The binary standard forms file names by prefixing the 
+      <xref format="html" href="https://en.wikipedia.org/wiki/MD5" scope="external">md5 sum</xref>
+ value with the extension of the file in lower case and an underscore to prevent the long garbled file names that would otherwise be chosen if the normal standard were applied directly to naming such content and to group such files close together in directory listings.
+    </p>
+    <p>Consequently, a 
+      <b>png</b>
+ file with content:
+    </p>
+    <pre>
+      <codeph>  q(\0abc\1)</codeph>
+    </pre>
+    <p>will be represented by the name:</p>
+    <pre>
+      <codeph>  png_2786f1147a331ec6ebf60c1ba636a458.png</codeph>
+    </pre>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:17 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_binary_vs_utf8_2f70c5d3e6145d03a99e4a57523d2765.dita -->
+<!--guid: GUID-baac2bfb-c4b2-5ffe-d73f-08a94d5341f2 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Binary vs Utf8 -->
+<!--definition: Binary-vs-Utf8 -->
+<!--definition: GUID-baac2bfb-c4b2-5ffe-d73f-08a94d5341f2 -->
