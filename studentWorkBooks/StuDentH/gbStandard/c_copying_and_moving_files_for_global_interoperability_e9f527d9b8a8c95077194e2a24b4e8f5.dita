@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-6f1e041c-a31e-111f-3a12-e1135cb13560" outputclass="3">
+  <title id="Copying-And-Moving-Files-For-Global-Interoperability">Copying And Moving Files For Global Interoperability</title>
+  <conbody>
+    <p>Users can copy files named using the 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ around from folder to folder without fear of collisions or duplication obviating the need for the time consuming checks and reportage otherwise required before performing such actions. The meta data in the 
+      <xref href="#Companion-File">&quot;Companion File&quot;</xref>
+ can also be copied in a similar fearless manner.
+    </p>
+    <p>If two users wish to share content: their files named using the 
+      <xref format="html" href="http://metacpan.org/pod/Dita::GB::Standard" scope="external">GB Standard</xref>
+ can be incorporated directly into the other user's file system without fear of collisions or duplicating content thus promoting global content sharing and collaboration of 
+      <xref format="html" href="http://docs.oasis-open.org/dita/dita/v1.3/os/part2-tech-content/dita-v1.3-os-part2-tech-content.html" scope="external">Dita</xref>
+ content.
+    </p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:07:16 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_copying_and_moving_files_for_global_interoperability_e9f527d9b8a8c95077194e2a24b4e8f5.dita -->
+<!--guid: GUID-6f1e041c-a31e-111f-3a12-e1135cb13560 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/gbStandard.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Copying And Moving Files For Global Interoperability -->
+<!--definition: Copying-And-Moving-Files-For-Global-Interoperability -->
+<!--definition: GUID-6f1e041c-a31e-111f-3a12-e1135cb13560 -->
