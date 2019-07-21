@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-68bab19f-2195-7c19-2801-4c4f562d91fe" outputclass="2">
+  <title id="Text-deduplication">Text deduplication</title>
+  <conbody>
+    <p>Find duplicate text for customers. We have the software and the compute
+power - we just need access to customer data which we will be able to get
+conveniently if the data is held in Git*.</p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:02:33 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_text_deduplication_ed5c38f0f544579c34a13680d9cffe4a.dita -->
+<!--guid: GUID-68bab19f-2195-7c19-2801-4c4f562d91fe -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/automation.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Text deduplication -->
+<!--definition: Text-deduplication -->
+<!--definition: GUID-68bab19f-2195-7c19-2801-4c4f562d91fe -->
