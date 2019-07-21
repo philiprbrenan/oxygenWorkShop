@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-0ffb1b85-9494-d91e-ffb9-d353e7cf12e2" outputclass="2">
+  <title id="Clean-data">Clean data</title>
+  <conbody>
+    <p>At 4.00am after a two hour run on one of the largest machines at AWS I
+discovered that Kohler had added two ampersands to their latest spread sheet
+resulting in a failure to reach the goal of 100% lint.</p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:02:33 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_clean_data_5b5c103d02b9bea0ef414b59657d34d2.dita -->
+<!--guid: GUID-0ffb1b85-9494-d91e-ffb9-d353e7cf12e2 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/automation.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Clean data -->
+<!--definition: Clean-data -->
+<!--definition: GUID-0ffb1b85-9494-d91e-ffb9-d353e7cf12e2 -->
