@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept id="GUID-c7ec062d-42a3-51c2-1e6e-78631dbae2a7" outputclass="2">
+  <title id="Information-Model-Automation">Information Model Automation</title>
+  <conbody>
+    <p>Automate the creation of the Information Model and drive automation with the
+Information Model.</p>
+    <p>my $im = q(Information Model);</p>
+    <p>An $im is produced for each Ryffine customer. There is a lot of text common
+to each $im. The Dita for an $im could perhaps be produced with some minimal
+automation to substitute variables into text?</p>
+  </conbody>
+</concept>
+<!--linted: 2019-07-21 at 13:02:33 -->
+<!--catalog: /home/phil/r/dita/dita-ot-3.1/catalog-dita.xml -->
+<!--ditaType: concept -->
+<!--docType: <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []> -->
+<!--file: /home/phil/r/www/conversions/gh/out/c_information_model_automation_020f133525e0e734d7645fd8fe88111d.dita -->
+<!--guid: GUID-c7ec062d-42a3-51c2-1e6e-78631dbae2a7 -->
+<!--header: <?xml version="1.0" encoding="UTF-8"?> -->
+<!--inputFile: /home/phil/r/www/conversions/gh/in/gh/htmlToDita-master/automation.html -->
+<!--lineNumber: Data::Edit::Xml::To::Dita /home/phil/perl/cpan/DataEditXmlToDita/lib/Data/Edit/Xml/To/Dita.pm 918 -->
+<!--project: all -->
+<!--title: Information Model Automation -->
+<!--definition: Information-Model-Automation -->
+<!--definition: GUID-c7ec062d-42a3-51c2-1e6e-78631dbae2a7 -->
