@@ -15,9 +15,9 @@ following section.
 A Dita concept document used to question prospective clients about their
 conversion and migration requirements.
 
-This document does not require much in the way of conversion or improvement -
-it is here to demonstrate a correctly formed and valid Dita concept document to
-the student showing that Dita is in everyday use at Ryffine.
+This document is here to demonstrate a correctly formed and valid Dita concept
+document to the student.  The studnt should make minor edits and then publish
+the document as PDF.
 
 ## oxygenWorkShopDescription README.md
 
