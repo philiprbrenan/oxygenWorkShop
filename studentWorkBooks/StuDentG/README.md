@@ -1,15 +1,25 @@
 # The Oxygen Workshop
 
-The workshop contains four documents for the students to work on held in github
-repository:
+The workshop contains five documents for the students to work on held in github
+repository.
 
 https://github.com/philiprbrenan/studentWorkShop
 
-The documents range from easy to complex and thus provide a graduated
+These documents range from easy to complex and thus provide a graduated
 introduction to technical writing with Dita which will allow each student to
-improve from their current level of expertise.
+improve from their current level of expertise. Each document is described in a
+following section.
 
-## oxygenWorkShopDescription
+## inTakeDocument
+
+A Dita concept document used to question prospective clients about their
+conversion and migration requirements.
+
+This document is here to demonstrate a correctly formed and valid Dita concept
+document to the student.  The studnt should make minor edits and then publish
+the document as PDF.
+
+## oxygenWorkShopDescription README.md
 
 A copy of this document in markdown format.
 
