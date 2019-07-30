@@ -76,9 +76,4 @@
             <topicref href="../StudentC/StudentCMap.ditamap" format="ditamap"/>
         </topicref>
     </topicref>
-<topicref href="../studentWorkBooks/StuDentD/StudenTemplatetMap.ditamap" format="ditamap" navtitle="Stu DentD"/>
-<topicref href="../studentWorkBooks/StuDentE/StudenTemplatetMap.ditamap" format="ditamap" navtitle="Stu DentE"/>
-<topicref href="../studentWorkBooks/StuDentF/StudenTemplatetMap.ditamap" format="ditamap" navtitle="Stu DentF"/>
-<topicref href="../studentWorkBooks/StuDentG/StudenTemplatetMap.ditamap" format="ditamap" navtitle="Stu DentG"/>
-<topicref href="../studentWorkBooks/StuDentH/StudenTemplatetMap.ditamap" format="ditamap" navtitle="Stu DentH"/>
 </map>
